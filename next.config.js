@@ -3,6 +3,6 @@ module.exports = {
   images: {
     unoptimized: true
   },
-  basePath: '/sri-lanka-train-timetable',
-  assetPrefix: '/sri-lanka-train-timetable/',
+  basePath: '/Sri-Lanka-train-timetable',
+  assetPrefix: '/Sri-Lanka-train-timetable/',
 }
