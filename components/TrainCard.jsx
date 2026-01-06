@@ -125,7 +125,7 @@ export default function TrainCard({ train }){
                     className="w-full h-full object-contain p-1"
                     onError={(e) => {
                       e.target.onerror = null;
-                      e.target.src = "/images/logoc.jpg"; // Try local image again
+                      e.target.src = "/Sri-Lanka-train-timetable/images/logoc.jpg"; // Try local image again
                       // Fallback to emoji if local image also fails
                       setTimeout(() => {
                         if (e.target.complete && e.target.naturalWidth === 0) {

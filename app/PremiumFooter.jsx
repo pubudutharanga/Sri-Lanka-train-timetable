@@ -74,7 +74,7 @@ export default function PremiumFooter() {
                 <div className="flex items-center gap-4 mb-6">
                   <div className="relative w-16 h-16">
                     <Image
-                      src="/images/logof.jpg" // Path to your image in public folder
+                      src="/Sri-Lanka-train-timetable/images/logof.jpg" // Path to your image in public folder
                       alt="Sri Lanka Railways Logo"
                       fill
                       className="object-contain"

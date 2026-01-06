@@ -19,9 +19,9 @@ export default function Hero() {
 
   // Local images array
   const heroImages = [
-    "/images/hero1.jpg",
-    "/images/hero2.jpg", 
-    "/images/hero3.png"
+    "/Sri-Lanka-train-timetable/images/hero1.jpg",
+    "/Sri-Lanka-train-timetable/images/hero2.jpg", 
+    "/Sri-Lanka-train-timetable/images/hero3.png"
   ]
 
   useEffect(() => {
