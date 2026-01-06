@@ -1,6 +1,7 @@
 import '../styles/globals.css'
 import { Inter } from 'next/font/google'
 import PremiumFooter from './PremiumFooter'
+import GoogleAnalytics from '../components/GoogleAnalytics'
 
 const inter = Inter({ subsets: ['latin'] })
 

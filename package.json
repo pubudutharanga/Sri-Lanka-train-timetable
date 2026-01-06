@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@next/third-parties": "^16.1.1",
     "@radix-ui/react-select": "^2.2.6",
     "framer-motion": "^10.12.16",
     "lucide-react": "^0.562.0",
