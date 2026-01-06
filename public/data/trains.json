@@ -1,0 +1,7561 @@
+[
+{
+"id": "SL001",
+"name": "Galu Kumari",
+"number": "8056",
+"from": "Maradana",
+"to": "Matara",
+"departure": "T13:40:00",
+"arrival": "T18:25:00",
+"duration_minutes": 285,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Panadura",
+"arrival": "T14:30:00",
+"departure": "T14:32:00"
+},
+{
+"station": "Kalutara",
+"arrival": "T14:50:00",
+"departure": "T14:52:00"
+},
+{
+"station": "Aluthgama",
+"arrival": "T15:20:00",
+"departure": "T15:22:00"
+},
+{
+"station": "Ambalangoda",
+"arrival": "T15:50:00",
+"departure": "T15:52:00"
+},
+{
+"station": "Hikkaduwa",
+"arrival": "T16:05:00",
+"departure": "T16:07:00"
+},
+{
+"station": "Galle",
+"arrival": "T16:30:00",
+"departure": "T16:32:00"
+}
+]
+},
+{
+"id": "SL002",
+"name": "Sagarika",
+"number": "8096",
+"from": "Maradana",
+"to": "Beliatta",
+"departure": "T16:40:00",
+"arrival": "T20:30:00",
+"duration_minutes": 230,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T16:44:00",
+"departure": "T16:46:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T17:50:00",
+"departure": "T17:52:00"
+},
+{
+"station": "Bentota",
+"arrival": "T18:10:00",
+"departure": "T18:12:00"
+},
+{
+"station": "Galle",
+"arrival": "T19:04:00",
+"departure": "T19:06:00"
+},
+{
+"station": "Matara",
+"arrival": "T19:50:00",
+"departure": "T19:52:00"
+}
+]
+},
+{
+"id": "SL003",
+"name": "Ruhunu Kumari",
+"number": "8058",
+"from": "Maradana",
+"to": "Matara",
+"departure": "T15:40:00",
+"arrival": "T19:30:00",
+"duration_minutes": 230,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T15:44:00",
+"departure": "T15:50:00"
+},
+{
+"station": "Panadura",
+"arrival": "T16:15:00",
+"departure": "T16:17:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:35:00",
+"departure": "T16:37:00"
+},
+{
+"station": "Bentota",
+"arrival": "T17:00:00",
+"departure": "T17:02:00"
+},
+{
+"station": "Ambalangoda",
+"arrival": "T17:25:00",
+"departure": "T17:27:00"
+},
+{
+"station": "Galle",
+"arrival": "T17:56:00",
+"departure": "T17:58:00"
+}
+]
+},
+{
+"id": "SL004",
+"name": "Podi Menike",
+"number": "1005",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T05:55:00",
+"arrival": "T16:18:00",
+"duration_minutes": 623,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T08:48:00",
+"departure": "T08:55:00"
+},
+{
+"station": "Hatton",
+"arrival": "T11:00:00",
+"departure": "T11:02:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:30:00",
+"departure": "T12:32:00"
+},
+{
+"station": "Haputale",
+"arrival": "T14:00:00",
+"departure": "T14:02:00"
+},
+{
+"station": "Elle",
+"arrival": "T15:00:00",
+"departure": "T15:02:00"
+}
+]
+},
+{
+"id": "SL005",
+"name": "Udarata Menike",
+"number": "1015",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T08:30:00",
+"arrival": "T18:09:00",
+"duration_minutes": 579,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T09:03:00",
+"departure": "T09:05:00"
+},
+{
+"station": "Kandy",
+"arrival": "T11:08:00",
+"departure": "T11:15:00"
+},
+{
+"station": "Hatton",
+"arrival": "T13:30:00",
+"departure": "T13:32:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T14:54:00",
+"departure": "T14:56:00"
+},
+{
+"station": "Haputale",
+"arrival": "T16:25:00",
+"departure": "T16:27:00"
+},
+{
+"station": "Elle",
+"arrival": "T17:23:00",
+"departure": "T17:25:00"
+}
+]
+},
+{
+"id": "SL006",
+"name": "Yal Devi",
+"number": "4077",
+"from": "Colombo Fort",
+"to": "Kankesanthurai",
+"departure": "T06:40:00",
+"arrival": "T15:20:00",
+"duration_minutes": 520,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Anuradhapura",
+"arrival": "T09:51:00",
+"departure": "T09:53:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T10:45:00",
+"departure": "T10:47:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T11:58:00",
+"departure": "T12:00:00"
+},
+{
+"station": "Pallai",
+"arrival": "T12:31:00",
+"departure": "T12:33:00"
+},
+{
+"station": "Jaffna",
+"arrival": "T13:10:00",
+"departure": "T13:12:00"
+}
+]
+},
+{
+"id": "SL007",
+"name": "Uttara Devi",
+"number": "4017",
+"from": "Colombo Fort",
+"to": "Kankesanthurai",
+"departure": "T11:50:00",
+"arrival": "T19:00:00",
+"duration_minutes": 430,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class"
+],
+"stops": [
+{
+"station": "Kurunegala",
+"arrival": "T13:20:00",
+"departure": "T13:22:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T15:10:00",
+"departure": "T15:12:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T16:05:00",
+"departure": "T16:07:00"
+},
+{
+"station": "Jaffna",
+"arrival": "T17:45:00",
+"departure": "T17:47:00"
+}
+]
+},
+{
+"id": "SL008",
+"name": "Udaya Devi",
+"number": "6011",
+"from": "Colombo Fort",
+"to": "Batticaloa",
+"departure": "T06:05:00",
+"arrival": "T14:37:00",
+"duration_minutes": 512,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Habarana",
+"arrival": "T11:11:00",
+"departure": "T11:13:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T11:35:00",
+"departure": "T11:37:00"
+},
+{
+"station": "Polonnaruwa",
+"arrival": "T12:30:00",
+"departure": "T12:32:00"
+},
+{
+"station": "Batticaloa",
+"arrival": "T14:25:00",
+"departure": "T14:27:00"
+}
+]
+},
+{
+"id": "SL009",
+"name": "Rajarata Rajina",
+"number": "8085",
+"from": "Anuradhapura",
+"to": "Beliatta",
+"departure": "T03:15:00",
+"arrival": "T14:15:00",
+"duration_minutes": 660,
+"distance_km": 450,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T10:30:00",
+"departure": "T10:35:00"
+},
+{
+"station": "Galle",
+"arrival": "T12:51:00",
+"departure": "T12:53:00"
+},
+{
+"station": "Matara",
+"arrival": "T13:35:00",
+"departure": "T13:37:00"
+}
+]
+},
+{
+"id": "SL010",
+"name": "Samudra Devi",
+"number": "8760",
+"from": "Maradana",
+"to": "Galle",
+"departure": "T17:25:00",
+"arrival": "T20:25:00",
+"duration_minutes": 180,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T17:32:00",
+"departure": "T17:35:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T18:33:00",
+"departure": "T18:35:00"
+},
+{
+"station": "Bentota",
+"arrival": "T18:55:00",
+"departure": "T18:57:00"
+}
+]
+},
+{
+"id": "SL011",
+"name": "Meena Gaya",
+"number": "6079",
+"from": "Colombo Fort",
+"to": "Batticaloa",
+"departure": "T19:00:00",
+"arrival": "T04:00:00",
+"duration_minutes": 540,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Habarana",
+"arrival": "T00:10:00",
+"departure": "T00:12:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T00:42:00",
+"departure": "T00:44:00"
+},
+{
+"station": "Polonnaruwa",
+"arrival": "T01:30:00",
+"departure": "T01:32:00"
+}
+]
+},
+{
+"id": "SL012",
+"name": "Pulathisi",
+"number": "6075",
+"from": "Colombo Fort",
+"to": "Batticaloa",
+"departure": "T15:15:00",
+"arrival": "T22:27:00",
+"duration_minutes": 432,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Habarana",
+"arrival": "T19:20:00",
+"departure": "T19:22:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T19:44:00",
+"departure": "T19:46:00"
+},
+{
+"station": "Polonnaruwa",
+"arrival": "T20:33:00",
+"departure": "T20:35:00"
+}
+]
+},
+{
+"id": "SL013",
+"name": "Tikiri Menike",
+"number": "1023",
+"from": "Colombo Fort",
+"to": "Nanu Oya",
+"departure": "T12:50:00",
+"arrival": "T17:30:00",
+"duration_minutes": 280,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T16:09:00",
+"departure": "T16:11:00"
+},
+{
+"station": "Hatton",
+"arrival": "T16:50:00",
+"departure": "T16:52:00"
+}
+]
+},
+{
+"id": "SL014",
+"name": "Senkadagala Menike",
+"number": "1035",
+"from": "Colombo Fort",
+"to": "Kandy",
+"departure": "T16:35:00",
+"arrival": "T19:45:00",
+"duration_minutes": 190,
+"distance_km": 120,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T19:20:00",
+"departure": "T19:22:00"
+}
+]
+},
+{
+"id": "SL015",
+"name": "Muthu Kumari",
+"number": "3427",
+"from": "Panadura",
+"to": "Chilaw",
+"departure": "T16:50:00",
+"arrival": "T19:50:00",
+"duration_minutes": 180,
+"distance_km": 100,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T17:30:00",
+"departure": "T17:35:00"
+},
+{
+"station": "Negombo",
+"arrival": "T18:40:00",
+"departure": "T18:42:00"
+}
+]
+},
+{
+"id": "SL016",
+"name": "Yal Devi",
+"number": "4077",
+"from": "Mount Lavinia",
+"to": "Kankesanthurai",
+"departure": "T05:10:00",
+"arrival": "T13:15:00",
+"duration_minutes": 485,
+"distance_km": 400,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T05:45:00",
+"departure": "T05:47:00"
+},
+{
+"station": "Polgahawela",
+"arrival": "T07:04:00",
+"departure": "T07:06:00"
+},
+{
+"station": "Kurunegala",
+"arrival": "T07:29:00",
+"departure": "T07:31:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T10:05:00",
+"departure": "T10:07:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T10:45:00",
+"departure": "T10:47:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T11:54:00",
+"departure": "T11:56:00"
+},
+{
+"station": "Jaffna",
+"arrival": "T12:55:00",
+"departure": "T12:57:00"
+}
+]
+},
+{
+"id": "SL017",
+"name": "Dunhinda Odyssey",
+"number": "1001",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T05:30:00",
+"arrival": "T15:43:00",
+"duration_minutes": 613,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T08:11:00",
+"departure": "T08:13:00"
+},
+{
+"station": "Kandy",
+"arrival": "T08:25:00",
+"departure": "T08:27:00"
+},
+{
+"station": "Hatton",
+"arrival": "T10:40:00",
+"departure": "T10:42:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:06:00",
+"departure": "T12:08:00"
+},
+{
+"station": "Haputale",
+"arrival": "T13:52:00",
+"departure": "T13:54:00"
+},
+{
+"station": "Elle",
+"arrival": "T14:41:00",
+"departure": "T14:43:00"
+}
+]
+},
+{
+"id": "SL018",
+"name": "Night Mail",
+"number": "1039",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T17:55:00",
+"arrival": "T07:40:00",
+"duration_minutes": 825,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T21:15:00",
+"departure": "T21:17:00"
+},
+{
+"station": "Hatton",
+"arrival": "T02:28:00",
+"departure": "T02:30:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T03:49:00",
+"departure": "T03:51:00"
+},
+{
+"station": "Haputale",
+"arrival": "T05:42:00",
+"departure": "T05:44:00"
+},
+{
+"station": "Elle",
+"arrival": "T06:46:00",
+"departure": "T06:48:00"
+}
+]
+},
+{
+"id": "SL019",
+"name": "Express Train",
+"number": "1007",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T09:45:00",
+"arrival": "T19:45:00",
+"duration_minutes": 600,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T09:22:00",
+"departure": "T09:24:00"
+},
+{
+"station": "Hatton",
+"arrival": "T14:35:00",
+"departure": "T14:37:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T15:57:00",
+"departure": "T15:59:00"
+},
+{
+"station": "Haputale",
+"arrival": "T17:42:00",
+"departure": "T17:44:00"
+},
+{
+"station": "Elle",
+"arrival": "T18:41:00",
+"departure": "T18:43:00"
+}
+]
+},
+{
+"id": "SL020",
+"name": "Night Mail",
+"number": "4089",
+"from": "Moratuwa",
+"to": "Kankesanthurai",
+"departure": "T23:30:00",
+"arrival": "T08:30:00",
+"duration_minutes": 540,
+"distance_km": 420,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T00:45:00",
+"departure": "T00:47:00"
+},
+{
+"station": "Galgamuwa",
+"arrival": "T04:00:00",
+"departure": "T04:02:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T05:00:00",
+"departure": "T05:02:00"
+},
+{
+"station": "Jaffna",
+"arrival": "T08:00:00",
+"departure": "T08:02:00"
+}
+]
+},
+{
+"id": "SL021",
+"name": "Mixed Train",
+"number": "1126",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T04:00:00",
+"arrival": "T13:30:00",
+"duration_minutes": 570,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Observation",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Hatton",
+"arrival": "T07:04:00",
+"departure": "T07:06:00"
+},
+{
+"station": "Nanuoya",
+"arrival": "T09:03:00",
+"departure": "T09:05:00"
+},
+{
+"station": "Haputale",
+"arrival": "T11:17:00",
+"departure": "T11:19:00"
+},
+{
+"station": "Ella",
+"arrival": "T12:34:00",
+"departure": "T12:36:00"
+}
+]
+},
+{
+"id": "SL022",
+"name": "Express Train",
+"number": "1009",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T07:00:00",
+"arrival": "T17:00:00",
+"duration_minutes": 600,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Observation",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T09:22:00",
+"departure": "T09:24:00"
+},
+{
+"station": "Kandy",
+"arrival": "T09:33:00",
+"departure": "T09:35:00"
+}
+]
+},
+{
+"id": "SL023",
+"name": "Express Train",
+"number": "1019",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T10:35:00",
+"arrival": "T20:35:00",
+"duration_minutes": 600,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T13:27:00",
+"departure": "T13:29:00"
+},
+{
+"station": "Kandy",
+"arrival": "T16:09:00",
+"departure": "T16:11:00"
+},
+{
+"station": "Hatton",
+"arrival": "T20:08:00",
+"departure": "T20:10:00"
+},
+{
+"station": "Nanuoya",
+"arrival": "T21:27:00",
+"departure": "T21:29:00"
+}
+]
+},
+{
+"id": "SL024",
+"name": "Express Train",
+"number": "1029",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T15:35:00",
+"arrival": "T01:35:00",
+"duration_minutes": 600,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T17:56:00",
+"departure": "T17:58:00"
+},
+{
+"station": "Kandy",
+"arrival": "T20:22:00",
+"departure": "T20:24:00"
+}
+]
+},
+{
+"id": "SL025",
+"name": "Express Train",
+"number": "1037",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T17:15:00",
+"arrival": "T03:15:00",
+"duration_minutes": 600,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T19:53:00",
+"departure": "T19:55:00"
+},
+{
+"station": "Kandy",
+"arrival": "T21:15:00",
+"departure": "T21:17:00"
+}
+]
+},
+{
+"id": "SL026",
+"name": "Express Train",
+"number": "1045",
+"from": "Colombo Fort",
+"to": "Badulla",
+"departure": "T20:30:00",
+"arrival": "T06:30:00",
+"duration_minutes": 600,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T23:38:00",
+"departure": "T23:40:00"
+},
+{
+"station": "Kandy",
+"arrival": "T00:30:00",
+"departure": "T00:32:00"
+}
+]
+},
+{
+"id": "SL027",
+"name": "Express Train",
+"number": "1038",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T04:00:00",
+"arrival": "T07:12:00",
+"duration_minutes": 192,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T04:28:00",
+"departure": "T04:30:00"
+},
+{
+"station": "Peradeniya Junction",
+"arrival": "T04:39:00",
+"departure": "T04:41:00"
+}
+]
+},
+{
+"id": "SL028",
+"name": "Express Train",
+"number": "1040",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T08:07:00",
+"duration_minutes": 187,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T04:58:00",
+"departure": "T05:00:00"
+},
+{
+"station": "Peradeniya Junction",
+"arrival": "T05:09:00",
+"departure": "T05:11:00"
+}
+]
+},
+{
+"id": "SL029",
+"name": "Express Train",
+"number": "1030",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:15:00",
+"arrival": "T08:47:00",
+"duration_minutes": 212,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T06:13:00",
+"departure": "T06:15:00"
+},
+{
+"station": "Peradeniya Junction",
+"arrival": "T06:23:00",
+"departure": "T06:25:00"
+}
+]
+},
+{
+"id": "SL030",
+"name": "Express Train",
+"number": "1036",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T06:20:00",
+"arrival": "T09:42:00",
+"duration_minutes": 202,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T06:18:00",
+"departure": "T06:20:00"
+},
+{
+"station": "Peradeniya Junction",
+"arrival": "T06:32:00",
+"departure": "T06:34:00"
+}
+]
+},
+{
+"id": "SL031",
+"name": "Express Train",
+"number": "8050",
+"from": "Colombo Maradana",
+"to": "Matara",
+"departure": "T06:25:00",
+"arrival": "T11:13:00",
+"duration_minutes": 288,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Colombo Fort",
+"arrival": "T06:48:00",
+"departure": "T06:50:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T07:09:00",
+"departure": "T07:11:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T07:57:00",
+"departure": "T07:59:00"
+},
+{
+"station": "Bentota",
+"arrival": "T08:29:00",
+"departure": "T08:31:00"
+},
+{
+"station": "Galle",
+"arrival": "T09:27:00",
+"departure": "T09:29:00"
+}
+]
+},
+{
+"id": "SL032",
+"name": "Express Train",
+"number": "8040",
+"from": "Colombo Fort",
+"to": "Matara",
+"departure": "T08:35:00",
+"arrival": "T12:09:00",
+"duration_minutes": 214,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Mount Lavinia",
+"arrival": "T08:52:00",
+"departure": "T08:54:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T09:29:00",
+"departure": "T09:31:00"
+},
+{
+"station": "Bentota",
+"arrival": "T09:51:00",
+"departure": "T09:53:00"
+},
+{
+"station": "Galle",
+"arrival": "T10:47:00",
+"departure": "T10:49:00"
+}
+]
+},
+{
+"id": "SL033",
+"name": "Express Train",
+"number": "8086",
+"from": "Colombo Fort",
+"to": "Matara",
+"departure": "T10:30:00",
+"arrival": "T14:21:00",
+"duration_minutes": 231,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Mount Lavinia",
+"arrival": "T10:48:00",
+"departure": "T10:50:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T11:27:00",
+"departure": "T11:29:00"
+},
+{
+"station": "Galle",
+"arrival": "T12:47:00",
+"departure": "T12:49:00"
+}
+]
+},
+{
+"id": "SL034",
+"name": "Express Train",
+"number": "8764",
+"from": "Colombo Fort",
+"to": "Matara",
+"departure": "T17:51:00",
+"arrival": "T22:00:00",
+"duration_minutes": 249,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Mount Lavinia",
+"arrival": "T18:16:00",
+"departure": "T18:18:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T19:15:00",
+"departure": "T19:17:00"
+},
+{
+"station": "Galle",
+"arrival": "T21:27:00",
+"departure": "T21:29:00"
+}
+]
+},
+{
+"id": "SL035",
+"name": "Express Train",
+"number": "8766",
+"from": "Colombo Fort",
+"to": "Matara",
+"departure": "T18:16:00",
+"arrival": "T21:55:00",
+"duration_minutes": 219,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kalutara South",
+"arrival": "T19:16:00",
+"departure": "T19:18:00"
+},
+{
+"station": "Galle",
+"arrival": "T20:38:00",
+"departure": "T20:40:00"
+}
+]
+},
+{
+"id": "SL036",
+"name": "Express Train",
+"number": "8775",
+"from": "Colombo Fort",
+"to": "Galle",
+"departure": "T19:30:00",
+"arrival": "T23:10:00",
+"duration_minutes": 220,
+"distance_km": 116,
+"daysOfWeek": [
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kalutara South",
+"arrival": "T20:49:00",
+"departure": "T20:51:00"
+}
+]
+},
+{
+"id": "SL037",
+"name": "Express Train",
+"number": "8311",
+"from": "Galle",
+"to": "Colombo Maradana",
+"departure": "T03:15:00",
+"arrival": "T06:52:00",
+"duration_minutes": 217,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T04:44:00",
+"departure": "T04:46:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T05:24:00",
+"departure": "T05:26:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:13:00",
+"departure": "T06:15:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T06:43:00",
+"departure": "T06:45:00"
+}
+]
+},
+{
+"id": "SL038",
+"name": "Express Train",
+"number": "8320",
+"from": "Galle",
+"to": "Colombo Maradana",
+"departure": "T04:10:00",
+"arrival": "T07:35:00",
+"duration_minutes": 205,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T05:37:00",
+"departure": "T05:39:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:06:00",
+"departure": "T06:08:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:57:00",
+"departure": "T06:59:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T07:26:00",
+"departure": "T07:28:00"
+}
+]
+},
+{
+"id": "SL039",
+"name": "Express Train",
+"number": "8327",
+"from": "Galle",
+"to": "Colombo Maradana",
+"departure": "T05:00:00",
+"arrival": "T08:11:00",
+"duration_minutes": 191,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T06:29:00",
+"departure": "T06:31:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:55:00",
+"departure": "T06:57:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T08:02:00",
+"departure": "T08:04:00"
+}
+]
+},
+{
+"id": "SL040",
+"name": "Express Train",
+"number": "8097",
+"from": "Beliatta",
+"to": "Colombo Maradana",
+"departure": "T04:15:00",
+"arrival": "T08:26:00",
+"duration_minutes": 251,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T04:49:00",
+"departure": "T04:51:00"
+},
+{
+"station": "Galle",
+"arrival": "T05:55:00",
+"departure": "T05:57:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T07:11:00",
+"departure": "T07:13:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T08:17:00",
+"departure": "T08:19:00"
+}
+]
+},
+{
+"id": "SL041",
+"name": "Express Train",
+"number": "8059",
+"from": "Matara",
+"to": "Colombo Maradana",
+"departure": "T06:05:00",
+"arrival": "T09:21:00",
+"duration_minutes": 196,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:01:00",
+"departure": "T07:03:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:16:00",
+"departure": "T08:18:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T09:12:00",
+"departure": "T09:14:00"
+}
+]
+},
+{
+"id": "SL042",
+"name": "Express Train",
+"number": "8057",
+"from": "Matara",
+"to": "Colombo Maradana",
+"departure": "T06:13:00",
+"arrival": "T09:48:00",
+"duration_minutes": 215,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:23:00",
+"departure": "T07:25:00"
+},
+{
+"station": "Bentota",
+"arrival": "T08:22:00",
+"departure": "T08:24:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:45:00",
+"departure": "T08:47:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T09:20:00",
+"departure": "T09:22:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T09:29:00",
+"departure": "T09:31:00"
+}
+]
+},
+{
+"id": "SL043",
+"name": "Express Train",
+"number": "8039",
+"from": "Matara",
+"to": "Colombo Maradana",
+"departure": "T13:40:00",
+"arrival": "T18:22:00",
+"duration_minutes": 282,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T14:48:00",
+"departure": "T14:50:00"
+},
+{
+"station": "Bentota",
+"arrival": "T15:47:00",
+"departure": "T15:49:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:16:00",
+"departure": "T16:18:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T16:58:00",
+"departure": "T17:00:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T17:18:00",
+"departure": "T17:20:00"
+}
+]
+},
+{
+"id": "SL044",
+"name": "Express Train",
+"number": "8051",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T14:05:00",
+"arrival": "T18:10:00",
+"duration_minutes": 245,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T15:33:00",
+"departure": "T15:35:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:36:00",
+"departure": "T16:38:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T17:45:00",
+"departure": "T17:47:00"
+}
+]
+},
+{
+"id": "SL045",
+"name": "Express Train",
+"number": "8061",
+"from": "Matara",
+"to": "Colombo Maradana",
+"departure": "T15:47:00",
+"arrival": "T19:20:00",
+"duration_minutes": 213,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T16:40:00",
+"departure": "T16:42:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T18:15:00",
+"departure": "T18:17:00"
+},
+{
+"station": "Colombo Fort",
+"arrival": "T19:10:00",
+"departure": "T19:12:00"
+}
+]
+},
+{
+"id": "SL046",
+"name": "Express Train",
+"number": "7081",
+"from": "Colombo Fort",
+"to": "Trincomalee",
+"departure": "T07:25:00",
+"arrival": "T14:37:00",
+"duration_minutes": 432,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Habarana",
+"arrival": "T12:21:00",
+"departure": "T12:23:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T12:47:00",
+"departure": "T12:49:00"
+}
+]
+},
+{
+"id": "SL047",
+"name": "Night Mail",
+"number": "7083",
+"from": "Colombo Fort",
+"to": "Trincomalee",
+"departure": "T21:30:00",
+"arrival": "T05:42:00",
+"duration_minutes": 492,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper"
+],
+"stops": [
+{
+"station": "Habarana",
+"arrival": "T03:13:00",
+"departure": "T03:15:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T03:43:00",
+"departure": "T03:45:00"
+}
+]
+},
+{
+"id": "SL048",
+"name": "Express Train",
+"number": "6076",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T01:40:00",
+"arrival": "T08:55:00",
+"duration_minutes": 435,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"3rd Class",
+"2nd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T03:37:00",
+"departure": "T03:39:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T04:21:00",
+"departure": "T04:23:00"
+},
+{
+"station": "Habarana",
+"arrival": "T04:45:00",
+"departure": "T04:47:00"
+}
+]
+},
+{
+"id": "SL049",
+"name": "Express Train",
+"number": "7886",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T06:50:00",
+"arrival": "T13:00:00",
+"duration_minutes": 370,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galoya Jn",
+"arrival": "T08:30:00",
+"departure": "T08:32:00"
+}
+]
+},
+{
+"id": "SL050",
+"name": "Udaya Devi",
+"number": "6012",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T06:15:00",
+"arrival": "T14:58:00",
+"duration_minutes": 523,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T08:14:00",
+"departure": "T08:16:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T09:13:00",
+"departure": "T09:15:00"
+},
+{
+"station": "Habarana",
+"arrival": "T09:39:00",
+"departure": "T09:41:00"
+}
+]
+},
+{
+"id": "SL051",
+"name": "Night Mail",
+"number": "7082",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T11:00:00",
+"arrival": "T18:16:00",
+"duration_minutes": 436,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper"
+],
+"stops": [
+{
+"station": "Galoya Jn",
+"arrival": "T12:50:00",
+"departure": "T12:52:00"
+},
+{
+"station": "Habarana",
+"arrival": "T13:16:00",
+"departure": "T13:18:00"
+}
+]
+},
+{
+"id": "SL052",
+"name": "Night Mail",
+"number": "7084",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T19:00:00",
+"arrival": "T03:03:00",
+"duration_minutes": 483,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper"
+],
+"stops": [
+{
+"station": "Galoya Jn",
+"arrival": "T21:03:00",
+"departure": "T21:05:00"
+},
+{
+"station": "Habarana",
+"arrival": "T21:32:00",
+"departure": "T21:34:00"
+}
+]
+},
+{
+"id": "SL053",
+"name": "Night Mail",
+"number": "6080",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T20:15:00",
+"arrival": "T04:57:00",
+"duration_minutes": 522,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T22:35:00",
+"departure": "T22:37:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T23:33:00",
+"departure": "T23:35:00"
+}
+]
+},
+{
+"id": "SL054",
+"name": "Express Train",
+"number": "4085",
+"from": "Colombo Fort",
+"to": "Anuradhapura",
+"departure": "T13:45:00",
+"arrival": "T18:36:00",
+"duration_minutes": 291,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL055",
+"name": "Mannar Express",
+"number": "5003",
+"from": "Colombo Fort",
+"to": "Talaimannar",
+"departure": "T15:45:00",
+"arrival": "T23:00:00",
+"duration_minutes": 435,
+"distance_km": 330,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Anuradhapura",
+"arrival": "T19:55:00",
+"departure": "T19:57:00"
+}
+]
+},
+{
+"id": "SL056",
+"name": "Express Train",
+"number": "4086",
+"from": "Anuradhapura",
+"to": "Colombo Fort",
+"departure": "T05:10:00",
+"arrival": "T10:09:00",
+"duration_minutes": 299,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL057",
+"name": "Mannar Express",
+"number": "5004",
+"from": "Talaimannar",
+"to": "Colombo Fort",
+"departure": "T04:10:00",
+"arrival": "T10:37:00",
+"duration_minutes": 387,
+"distance_km": 330,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Anuradhapura",
+"arrival": "T06:28:00",
+"departure": "T06:30:00"
+}
+]
+},
+{
+"id": "SL058",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Jaffna",
+"to": "Colombo Fort",
+"departure": "T11:00:00",
+"arrival": "T18:58:00",
+"duration_minutes": 478,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Pallai",
+"arrival": "T11:46:00",
+"departure": "T11:48:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T12:14:00",
+"departure": "T12:16:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T13:26:00",
+"departure": "T13:28:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T14:28:00",
+"departure": "T14:30:00"
+}
+]
+},
+{
+"id": "SL059",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Jaffna",
+"to": "Colombo Fort",
+"departure": "T11:00:00",
+"arrival": "T18:58:00",
+"duration_minutes": 478,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Pallai",
+"arrival": "T11:46:00",
+"departure": "T11:48:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T12:14:00",
+"departure": "T12:16:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T13:26:00",
+"departure": "T13:28:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T14:28:00",
+"departure": "T14:30:00"
+}
+]
+},
+{
+"id": "SL060",
+"name": "Udaya Devi",
+"number": "6012",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T06:15:00",
+"arrival": "T14:58:00",
+"duration_minutes": 523,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T08:14:00",
+"departure": "T08:16:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T09:13:00",
+"departure": "T09:15:00"
+},
+{
+"station": "Habarana",
+"arrival": "T09:39:00",
+"departure": "T09:41:00"
+}
+]
+},
+{
+"id": "SL061",
+"name": "Express Train",
+"number": "8051",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T14:05:00",
+"arrival": "T18:10:00",
+"duration_minutes": 245,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T15:33:00",
+"departure": "T15:35:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:36:00",
+"departure": "T16:38:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T17:45:00",
+"departure": "T17:47:00"
+}
+]
+},
+{
+"id": "SL062",
+"name": "Express Train",
+"number": "4086",
+"from": "Anuradhapura",
+"to": "Colombo Fort",
+"departure": "T05:10:00",
+"arrival": "T10:09:00",
+"duration_minutes": 299,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL063",
+"name": "Mannar Express",
+"number": "5004",
+"from": "Talaimannar",
+"to": "Colombo Fort",
+"departure": "T04:10:00",
+"arrival": "T10:37:00",
+"duration_minutes": 387,
+"distance_km": 330,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Anuradhapura",
+"arrival": "T06:28:00",
+"departure": "T06:30:00"
+}
+]
+},
+{
+"id": "SL064",
+"name": "Pulathisi",
+"number": "6076",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T01:40:00",
+"arrival": "T08:55:00",
+"duration_minutes": 435,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T03:37:00",
+"departure": "T03:39:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T04:21:00",
+"departure": "T04:23:00"
+},
+{
+"station": "Habarana",
+"arrival": "T04:45:00",
+"departure": "T04:47:00"
+}
+]
+},
+{
+"id": "SL065",
+"name": "Express Train",
+"number": "7886",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T06:50:00",
+"arrival": "T13:00:00",
+"duration_minutes": 370,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galoya Jn",
+"arrival": "T08:30:00",
+"departure": "T08:32:00"
+}
+]
+},
+{
+"id": "SL066",
+"name": "Night Mail",
+"number": "7082",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T11:00:00",
+"arrival": "T18:16:00",
+"duration_minutes": 436,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper"
+],
+"stops": [
+{
+"station": "Galoya Jn",
+"arrival": "T12:50:00",
+"departure": "T12:52:00"
+},
+{
+"station": "Habarana",
+"arrival": "T13:16:00",
+"departure": "T13:18:00"
+}
+]
+},
+{
+"id": "SL067",
+"name": "Night Mail",
+"number": "7084",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T19:00:00",
+"arrival": "T03:03:00",
+"duration_minutes": 483,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper"
+],
+"stops": [
+{
+"station": "Galoya Jn",
+"arrival": "T21:03:00",
+"departure": "T21:05:00"
+},
+{
+"station": "Habarana",
+"arrival": "T21:32:00",
+"departure": "T21:34:00"
+}
+]
+},
+{
+"id": "SL068",
+"name": "Night Mail",
+"number": "6080",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T20:15:00",
+"arrival": "T04:57:00",
+"duration_minutes": 522,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T22:35:00",
+"departure": "T22:37:00"
+},
+{
+"station": "Galoya Jn",
+"arrival": "T23:33:00",
+"departure": "T23:35:00"
+}
+]
+},
+{
+"id": "SL069",
+"name": "Podi Menike",
+"number": "1006",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:45:00",
+"arrival": "T15:40:00",
+"duration_minutes": 595,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T06:45:00",
+"departure": "T06:47:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:45:00",
+"departure": "T07:47:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T09:15:00",
+"departure": "T09:17:00"
+},
+{
+"station": "Hatton",
+"arrival": "T10:45:00",
+"departure": "T10:47:00"
+},
+{
+"station": "Kandy",
+"arrival": "T12:50:00",
+"departure": "T12:55:00"
+}
+]
+},
+{
+"id": "SL070",
+"name": "Udarata Menike",
+"number": "1016",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T08:30:00",
+"arrival": "T18:30:00",
+"duration_minutes": 600,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T09:30:00",
+"departure": "T09:32:00"
+},
+{
+"station": "Haputale",
+"arrival": "T10:30:00",
+"departure": "T10:32:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:00:00",
+"departure": "T12:02:00"
+},
+{
+"station": "Hatton",
+"arrival": "T13:30:00",
+"departure": "T13:32:00"
+},
+{
+"station": "Kandy",
+"arrival": "T15:35:00",
+"departure": "T15:40:00"
+}
+]
+},
+{
+"id": "SL071",
+"name": "Night Mail",
+"number": "1046",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T18:30:00",
+"arrival": "T05:59:00",
+"duration_minutes": 689,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T19:24:00",
+"departure": "T19:26:00"
+},
+{
+"station": "Haputale",
+"arrival": "T20:35:00",
+"departure": "T20:37:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T22:50:00",
+"departure": "T22:52:00"
+},
+{
+"station": "Hatton",
+"arrival": "T00:13:00",
+"departure": "T00:15:00"
+},
+{
+"station": "Kandy",
+"arrival": "T03:00:00",
+"departure": "T03:05:00"
+}
+]
+},
+{
+"id": "SL072",
+"name": "Express Train",
+"number": "1008",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T09:45:00",
+"arrival": "T21:17:00",
+"duration_minutes": 692,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Observation",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T11:14:00",
+"departure": "T11:16:00"
+},
+{
+"station": "Haputale",
+"arrival": "T12:30:00",
+"departure": "T12:32:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T14:15:00",
+"departure": "T14:17:00"
+},
+{
+"station": "Hatton",
+"arrival": "T15:50:00",
+"departure": "T15:52:00"
+},
+{
+"station": "Kandy",
+"arrival": "T18:00:00",
+"departure": "T18:05:00"
+}
+]
+},
+{
+"id": "SL073",
+"name": "Express Train",
+"number": "8311",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T02:00:00",
+"arrival": "T06:45:00",
+"duration_minutes": 285,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T02:45:00",
+"departure": "T02:47:00"
+},
+{
+"station": "Galle",
+"arrival": "T03:15:00",
+"departure": "T03:17:00"
+},
+{
+"station": "Bentota",
+"arrival": "T04:46:00",
+"departure": "T04:48:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T05:26:00",
+"departure": "T05:28:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:15:00",
+"departure": "T06:17:00"
+}
+]
+},
+{
+"id": "SL074",
+"name": "Express Train",
+"number": "8320",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T03:00:00",
+"arrival": "T07:28:00",
+"duration_minutes": 268,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T04:10:00",
+"departure": "T04:12:00"
+},
+{
+"station": "Bentota",
+"arrival": "T05:39:00",
+"departure": "T05:41:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:08:00",
+"departure": "T06:10:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:59:00",
+"departure": "T07:01:00"
+}
+]
+},
+{
+"id": "SL075",
+"name": "Express Train",
+"number": "8327",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T03:50:00",
+"arrival": "T08:04:00",
+"duration_minutes": 254,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T05:00:00",
+"departure": "T05:02:00"
+},
+{
+"station": "Bentota",
+"arrival": "T06:31:00",
+"departure": "T06:33:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:57:00",
+"departure": "T06:59:00"
+}
+]
+},
+{
+"id": "SL076",
+"name": "Express Train",
+"number": "8097",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T04:15:00",
+"arrival": "T08:19:00",
+"duration_minutes": 244,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T04:51:00",
+"departure": "T04:53:00"
+},
+{
+"station": "Galle",
+"arrival": "T05:57:00",
+"departure": "T05:59:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T07:13:00",
+"departure": "T07:15:00"
+}
+]
+},
+{
+"id": "SL077",
+"name": "Ruhunu Kumari",
+"number": "8059",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T09:14:00",
+"duration_minutes": 254,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T06:05:00",
+"departure": "T06:07:00"
+},
+{
+"station": "Galle",
+"arrival": "T07:03:00",
+"departure": "T07:05:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:18:00",
+"departure": "T08:20:00"
+}
+]
+},
+{
+"id": "SL078",
+"name": "Blue Train",
+"number": "8057",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T05:25:00",
+"arrival": "T09:31:00",
+"duration_minutes": 246,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T06:13:00",
+"departure": "T06:15:00"
+},
+{
+"station": "Galle",
+"arrival": "T07:25:00",
+"departure": "T07:27:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:47:00",
+"departure": "T08:49:00"
+}
+]
+},
+{
+"id": "SL079",
+"name": "Rajarata Rajina",
+"number": "8085",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T08:45:00",
+"arrival": "T12:59:00",
+"duration_minutes": 254,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T09:19:00",
+"departure": "T09:21:00"
+},
+{
+"station": "Galle",
+"arrival": "T10:35:00",
+"departure": "T10:37:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T12:01:00",
+"departure": "T12:03:00"
+}
+]
+},
+{
+"id": "SL080",
+"name": "Express Train",
+"number": "8039",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T13:00:00",
+"arrival": "T17:20:00",
+"duration_minutes": 260,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T13:40:00",
+"departure": "T13:42:00"
+},
+{
+"station": "Galle",
+"arrival": "T14:50:00",
+"departure": "T14:52:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:18:00",
+"departure": "T16:20:00"
+}
+]
+},
+{
+"id": "SL081",
+"name": "Night Mail",
+"number": "4082",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T18:00:00",
+"arrival": "T05:00:00",
+"duration_minutes": 660,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T19:00:00",
+"departure": "T19:02:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T20:00:00",
+"departure": "T20:02:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T21:00:00",
+"departure": "T21:02:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T22:00:00",
+"departure": "T22:02:00"
+}
+]
+},
+{
+"id": "SL082",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T05:45:00",
+"arrival": "T12:49:00",
+"duration_minutes": 424,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T06:45:00",
+"departure": "T06:47:00"
+},
+{
+"station": "Pallai",
+"arrival": "T07:30:00",
+"departure": "T07:32:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T08:00:00",
+"departure": "T08:02:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T09:00:00",
+"departure": "T09:02:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T10:00:00",
+"departure": "T10:02:00"
+}
+]
+},
+{
+"id": "SL083",
+"name": "Uttara Devi",
+"number": "4018",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T09:45:00",
+"arrival": "T16:35:00",
+"duration_minutes": 410,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T10:45:00",
+"departure": "T10:47:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T12:30:00",
+"departure": "T12:32:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T13:30:00",
+"departure": "T13:32:00"
+}
+]
+},
+{
+"id": "SL084",
+"name": "Queen of Jaffna",
+"number": "4022",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T15:35:00",
+"arrival": "T22:45:00",
+"duration_minutes": 430,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T16:35:00",
+"departure": "T16:37:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T18:20:00",
+"departure": "T18:22:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T19:20:00",
+"departure": "T19:22:00"
+}
+]
+},
+{
+"id": "SL085",
+"name": "Rajarata Rajina",
+"number": "4086",
+"from": "Vavuniya",
+"to": "Colombo Fort",
+"departure": "T05:45:00",
+"arrival": "T12:20:00",
+"duration_minutes": 395,
+"distance_km": 250,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Anuradhapura",
+"arrival": "T06:45:00",
+"departure": "T06:47:00"
+}
+]
+},
+{
+"id": "SL086",
+"name": "Uttara Devi",
+"number": "4018",
+"from": "Anuradhapura",
+"to": "Colombo Fort",
+"departure": "T09:35:00",
+"arrival": "T13:30:00",
+"duration_minutes": 235,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class"
+],
+"stops": []
+},
+{
+"id": "SL087",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Anuradhapura",
+"to": "Colombo Fort",
+"departure": "T14:00:00",
+"arrival": "T18:00:00",
+"duration_minutes": 240,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL088",
+"name": "A/C Express",
+"number": "4022",
+"from": "Anuradhapura",
+"to": "Colombo Fort",
+"departure": "T16:32:00",
+"arrival": "T20:30:00",
+"duration_minutes": 238,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class AC"
+],
+"stops": []
+},
+{
+"id": "SL089",
+"name": "Night Mail",
+"number": "4090",
+"from": "Anuradhapura",
+"to": "Colombo Fort",
+"departure": "T23:10:00",
+"arrival": "T04:00:00",
+"duration_minutes": 290,
+"distance_km": 200,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL090",
+"name": "Yal Nila",
+"number": "Unknown",
+"from": "Anuradhapura",
+"to": "Colombo Fort",
+"departure": "T22:00:00",
+"arrival": "T02:00:00",
+"duration_minutes": 240,
+"distance_km": 200,
+"daysOfWeek": [
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL091",
+"name": "Intercity Express",
+"number": "1036",
+"from": "Kandy",
+"to": "Colombo Fort",
+"departure": "T06:20:00",
+"arrival": "T09:42:00",
+"duration_minutes": 202,
+"distance_km": 120,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T06:32:00",
+"departure": "T06:34:00"
+}
+]
+},
+{
+"id": "SL092",
+"name": "Express Train",
+"number": "1030",
+"from": "Kandy",
+"to": "Colombo Fort",
+"departure": "T06:15:00",
+"arrival": "T08:47:00",
+"duration_minutes": 152,
+"distance_km": 120,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T06:23:00",
+"departure": "T06:25:00"
+}
+]
+},
+{
+"id": "SL093",
+"name": "Express Train",
+"number": "1040",
+"from": "Kandy",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T08:07:00",
+"duration_minutes": 187,
+"distance_km": 120,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T05:09:00",
+"departure": "T05:11:00"
+}
+]
+},
+{
+"id": "SL094",
+"name": "Express Train",
+"number": "1038",
+"from": "Kandy",
+"to": "Colombo Fort",
+"departure": "T04:30:00",
+"arrival": "T07:12:00",
+"duration_minutes": 162,
+"distance_km": 120,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T04:39:00",
+"departure": "T04:41:00"
+}
+]
+},
+{
+"id": "SL095",
+"name": "Express Train",
+"number": "1024",
+"from": "Kandy",
+"to": "Colombo Fort",
+"departure": "T10:40:00",
+"arrival": "T14:04:00",
+"duration_minutes": 204,
+"distance_km": 120,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Peradeniya Junction",
+"arrival": "T10:50:00",
+"departure": "T10:52:00"
+}
+]
+},
+{
+"id": "SL096",
+"name": "Express Train",
+"number": "Express (B)",
+"from": "Matale",
+"to": "Colombo Fort",
+"departure": "T05:15:00",
+"arrival": "T09:45:00",
+"duration_minutes": 270,
+"distance_km": 140,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kandy",
+"arrival": "T07:00:00",
+"departure": "T07:05:00"
+}
+]
+},
+{
+"id": "SL097",
+"name": "Express Train",
+"number": "Unknown",
+"from": "Puttalam",
+"to": "Colombo Fort",
+"departure": "T04:45:00",
+"arrival": "T08:16:00",
+"duration_minutes": 211,
+"distance_km": 130,
+"daysOfWeek": [
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Chilaw",
+"arrival": "T06:00:00",
+"departure": "T06:02:00"
+},
+{
+"station": "Negombo",
+"arrival": "T07:00:00",
+"departure": "T07:02:00"
+}
+]
+},
+{
+"id": "SL098",
+"name": "Colombo Commuter",
+"number": "9646",
+"from": "Avissawella",
+"to": "Colombo Fort",
+"departure": "T04:30:00",
+"arrival": "T06:30:00",
+"duration_minutes": 120,
+"distance_km": 61,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kosgama",
+"arrival": "T05:00:00",
+"departure": "T05:02:00"
+},
+{
+"station": "Homagama",
+"arrival": "T05:30:00",
+"departure": "T05:32:00"
+}
+]
+},
+{
+"id": "SL099",
+"name": "Colombo Commuter",
+"number": "9649",
+"from": "Avissawella",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T07:00:00",
+"duration_minutes": 120,
+"distance_km": 61,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kosgama",
+"arrival": "T05:30:00",
+"departure": "T05:32:00"
+},
+{
+"station": "Homagama",
+"arrival": "T06:00:00",
+"departure": "T06:02:00"
+}
+]
+},
+{
+"id": "SL100",
+"name": "Colombo Commuter",
+"number": "9651",
+"from": "Avissawella",
+"to": "Colombo Fort",
+"departure": "T05:30:00",
+"arrival": "T07:30:00",
+"duration_minutes": 120,
+"distance_km": 61,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kosgama",
+"arrival": "T06:00:00",
+"departure": "T06:02:00"
+},
+{
+"station": "Homagama",
+"arrival": "T06:30:00",
+"departure": "T06:32:00"
+}
+]
+},
+{
+"id": "SL101",
+"name": "Commuter",
+"number": "8302",
+"from": "Aluthgama",
+"to": "Colombo Fort",
+"departure": "T03:20:00",
+"arrival": "T05:10:00",
+"duration_minutes": 110,
+"distance_km": 60,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T03:25:00",
+"departure": "T03:27:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T04:00:00",
+"departure": "T04:02:00"
+},
+{
+"station": "Panadura",
+"arrival": "T04:30:00",
+"departure": "T04:32:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T04:50:00",
+"departure": "T04:52:00"
+}
+]
+},
+{
+"id": "SL102",
+"name": "Commuter",
+"number": "8304",
+"from": "Aluthgama",
+"to": "Colombo Fort",
+"departure": "T03:50:00",
+"arrival": "T05:40:00",
+"duration_minutes": 110,
+"distance_km": 60,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL103",
+"name": "Ruhunu Kumari",
+"number": "8059",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:05:00",
+"arrival": "T09:14:00",
+"duration_minutes": 189,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:03:00",
+"departure": "T07:05:00"
+},
+{
+"station": "Aluthgama",
+"arrival": "T07:45:00",
+"departure": "T07:47:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:18:00",
+"departure": "T08:20:00"
+}
+]
+},
+{
+"id": "SL104",
+"name": "Galu Kumari",
+"number": "8057",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:10:00",
+"arrival": "T09:31:00",
+"duration_minutes": 201,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:25:00",
+"departure": "T07:27:00"
+},
+{
+"station": "Aluthgama",
+"arrival": "T08:28:00",
+"departure": "T08:30:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:47:00",
+"departure": "T08:49:00"
+}
+]
+},
+{
+"id": "SL105",
+"name": "Rajarata Rejina",
+"number": "8085",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T09:40:00",
+"arrival": "T13:15:00",
+"duration_minutes": 215,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T10:35:00",
+"departure": "T10:37:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T12:01:00",
+"departure": "T12:03:00"
+}
+]
+},
+{
+"id": "SL106",
+"name": "Express Train",
+"number": "8039",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T13:35:00",
+"arrival": "T17:14:00",
+"duration_minutes": 219,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T14:50:00",
+"departure": "T14:52:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:18:00",
+"departure": "T16:20:00"
+}
+]
+},
+{
+"id": "SL107",
+"name": "Commuter",
+"number": "8051",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T14:10:00",
+"arrival": "T18:12:00",
+"duration_minutes": 242,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T15:33:00",
+"departure": "T15:35:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:36:00",
+"departure": "T16:38:00"
+}
+]
+},
+{
+"id": "SL108",
+"name": "Commuter",
+"number": "8363",
+"from": "Aluthgama",
+"to": "Colombo Fort",
+"departure": "T16:15:00",
+"arrival": "T18:33:00",
+"duration_minutes": 138,
+"distance_km": 60,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kalutara South",
+"arrival": "T17:30:00",
+"departure": "T17:32:00"
+}
+]
+},
+{
+"id": "SL109",
+"name": "Commuter",
+"number": "8374",
+"from": "Aluthgama",
+"to": "Colombo Fort",
+"departure": "T16:15:00",
+"arrival": "T18:45:00",
+"duration_minutes": 150,
+"distance_km": 60,
+"daysOfWeek": [
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL110",
+"name": "Express Train",
+"number": "8061",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T14:10:00",
+"arrival": "T17:11:00",
+"duration_minutes": 181,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T15:15:00",
+"departure": "T15:17:00"
+}
+]
+},
+{
+"id": "SL111",
+"name": "Night Mail",
+"number": "1045",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T18:30:00",
+"arrival": "T05:59:00",
+"duration_minutes": 689,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T19:24:00",
+"departure": "T19:26:00"
+},
+{
+"station": "Haputale",
+"arrival": "T20:35:00",
+"departure": "T20:37:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T22:50:00",
+"departure": "T22:52:00"
+},
+{
+"station": "Hatton",
+"arrival": "T00:13:00",
+"departure": "T00:15:00"
+},
+{
+"station": "Kandy",
+"arrival": "T03:00:00",
+"departure": "T03:05:00"
+}
+]
+},
+{
+"id": "SL112",
+"name": "Podi Menike",
+"number": "1005",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:50:00",
+"arrival": "T16:00:00",
+"duration_minutes": 610,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T06:51:00",
+"departure": "T06:53:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:50:00",
+"departure": "T07:52:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T09:23:00",
+"departure": "T09:25:00"
+},
+{
+"station": "Hatton",
+"arrival": "T10:44:00",
+"departure": "T10:46:00"
+},
+{
+"station": "Kandy",
+"arrival": "T13:12:00",
+"departure": "T13:17:00"
+}
+]
+},
+{
+"id": "SL113",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Avissawella",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T07:00:00",
+"duration_minutes": 120,
+"distance_km": 61,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kosgama",
+"arrival": "T05:30:00",
+"departure": "T05:32:00"
+},
+{
+"station": "Homagama",
+"arrival": "T06:00:00",
+"departure": "T06:02:00"
+}
+]
+},
+{
+"id": "SL114",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Chilaw",
+"to": "Colombo Fort",
+"departure": "T04:30:00",
+"arrival": "T07:30:00",
+"duration_minutes": 180,
+"distance_km": 90,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Negombo",
+"arrival": "T06:00:00",
+"departure": "T06:02:00"
+}
+]
+},
+{
+"id": "SL115",
+"name": "Night Mail",
+"number": "Unknown",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T20:15:00",
+"arrival": "T04:53:00",
+"duration_minutes": 518,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T22:35:00",
+"departure": "T22:37:00"
+},
+{
+"station": "Gal Oya Junction",
+"arrival": "T23:33:00",
+"departure": "T23:35:00"
+}
+]
+},
+{
+"id": "SL116",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Kalutara South",
+"to": "Colombo Fort",
+"departure": "T06:30:00",
+"arrival": "T08:05:00",
+"duration_minutes": 95,
+"distance_km": 45,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Panadura",
+"arrival": "T07:00:00",
+"departure": "T07:02:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T07:45:00",
+"departure": "T07:47:00"
+}
+]
+},
+{
+"id": "SL117",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T05:45:00",
+"arrival": "T12:49:00",
+"duration_minutes": 424,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T06:45:00",
+"departure": "T06:47:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T08:00:00",
+"departure": "T08:02:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T09:00:00",
+"departure": "T09:02:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T10:00:00",
+"departure": "T10:02:00"
+}
+]
+},
+{
+"id": "SL118",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Negombo",
+"to": "Colombo Fort",
+"departure": "T06:00:00",
+"arrival": "T07:05:00",
+"duration_minutes": 65,
+"distance_km": 40,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": []
+},
+{
+"id": "SL119",
+"name": "Pulathisi",
+"number": "6076",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T01:40:00",
+"arrival": "T08:45:00",
+"duration_minutes": 425,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T03:37:00",
+"departure": "T03:39:00"
+},
+{
+"station": "Habarana",
+"arrival": "T04:45:00",
+"departure": "T04:47:00"
+}
+]
+},
+{
+"id": "SL120",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Polgahawela",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T07:30:00",
+"duration_minutes": 150,
+"distance_km": 80,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Veyangoda",
+"arrival": "T05:45:00",
+"departure": "T05:47:00"
+},
+{
+"station": "Gampaha",
+"arrival": "T06:30:00",
+"departure": "T06:32:00"
+}
+]
+},
+{
+"id": "SL121",
+"name": "Night Mail",
+"number": "1046",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T18:30:00",
+"arrival": "T05:59:00",
+"duration_minutes": 689,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T19:26:00",
+"departure": "T19:28:00"
+},
+{
+"station": "Haputale",
+"arrival": "T20:37:00",
+"departure": "T20:39:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T22:52:00",
+"departure": "T22:54:00"
+},
+{
+"station": "Hatton",
+"arrival": "T00:15:00",
+"departure": "T00:17:00"
+},
+{
+"station": "Kandy",
+"arrival": "T03:05:00",
+"departure": "T03:10:00"
+}
+]
+},
+{
+"id": "SL122",
+"name": "Podi Menike",
+"number": "1006",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T08:50:00",
+"arrival": "T19:24:00",
+"duration_minutes": 634,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T09:42:00",
+"departure": "T09:44:00"
+},
+{
+"station": "Haputale",
+"arrival": "T10:39:00",
+"departure": "T10:41:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:14:00",
+"departure": "T12:16:00"
+},
+{
+"station": "Hatton",
+"arrival": "T13:35:00",
+"departure": "T13:37:00"
+},
+{
+"station": "Kandy",
+"arrival": "T16:35:00",
+"departure": "T16:40:00"
+}
+]
+},
+{
+"id": "SL123",
+"name": "Udarata Menike",
+"number": "1016",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T09:45:00",
+"arrival": "T18:30:00",
+"duration_minutes": 525,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T10:45:00",
+"departure": "T10:47:00"
+},
+{
+"station": "Haputale",
+"arrival": "T11:45:00",
+"departure": "T11:47:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T13:15:00",
+"departure": "T13:17:00"
+},
+{
+"station": "Hatton",
+"arrival": "T14:44:00",
+"departure": "T14:46:00"
+},
+{
+"station": "Kandy",
+"arrival": "T17:20:00",
+"departure": "T17:25:00"
+}
+]
+},
+{
+"id": "SL124",
+"name": "Early Morning Express",
+"number": "8311",
+"from": "Galle",
+"to": "Colombo Fort",
+"departure": "T03:15:00",
+"arrival": "T06:45:00",
+"duration_minutes": 210,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T04:46:00",
+"departure": "T04:48:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T05:26:00",
+"departure": "T05:28:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:15:00",
+"departure": "T06:17:00"
+}
+]
+},
+{
+"id": "SL125",
+"name": "Morning Express",
+"number": "8320",
+"from": "Galle",
+"to": "Colombo Fort",
+"departure": "T04:10:00",
+"arrival": "T07:28:00",
+"duration_minutes": 198,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T05:39:00",
+"departure": "T05:41:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:08:00",
+"departure": "T06:10:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:59:00",
+"departure": "T07:01:00"
+}
+]
+},
+{
+"id": "SL126",
+"name": "Ruhunu Kumari",
+"number": "8059",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:05:00",
+"arrival": "T09:14:00",
+"duration_minutes": 189,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:03:00",
+"departure": "T07:05:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:18:00",
+"departure": "T08:20:00"
+}
+]
+},
+{
+"id": "SL127",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Aluthgama",
+"to": "Colombo Fort",
+"departure": "T03:20:00",
+"arrival": "T05:09:00",
+"duration_minutes": 109,
+"distance_km": 60,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kalutara South",
+"arrival": "T04:02:00",
+"departure": "T04:04:00"
+},
+{
+"station": "Panadura",
+"arrival": "T04:32:00",
+"departure": "T04:34:00"
+}
+]
+},
+{
+"id": "SL128",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T05:45:00",
+"arrival": "T12:49:00",
+"duration_minutes": 424,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T06:47:00",
+"departure": "T06:49:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T08:02:00",
+"departure": "T08:04:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T09:02:00",
+"departure": "T09:04:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T10:02:00",
+"departure": "T10:04:00"
+}
+]
+},
+{
+"id": "SL129",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Avissawella",
+"to": "Colombo Fort",
+"departure": "T05:15:00",
+"arrival": "T07:15:00",
+"duration_minutes": 120,
+"distance_km": 61,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kosgama",
+"arrival": "T05:45:00",
+"departure": "T05:47:00"
+},
+{
+"station": "Homagama",
+"arrival": "T06:15:00",
+"departure": "T06:17:00"
+}
+]
+},
+{
+"id": "SL130",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Chilaw",
+"to": "Colombo Fort",
+"departure": "T04:30:00",
+"arrival": "T07:30:00",
+"duration_minutes": 180,
+"distance_km": 90,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Negombo",
+"arrival": "T06:02:00",
+"departure": "T06:04:00"
+}
+]
+},
+{
+"id": "SL131",
+"name": "Night Mail",
+"number": "1046",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T18:30:00",
+"arrival": "T05:59:00",
+"duration_minutes": 689,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T19:24:00",
+"departure": "T19:26:00"
+},
+{
+"station": "Haputale",
+"arrival": "T20:35:00",
+"departure": "T20:37:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T22:50:00",
+"departure": "T22:52:00"
+},
+{
+"station": "Hatton",
+"arrival": "T00:13:00",
+"departure": "T00:15:00"
+},
+{
+"station": "Kandy",
+"arrival": "T03:00:00",
+"departure": "T03:05:00"
+}
+]
+},
+{
+"id": "SL132",
+"name": "Podi Menike",
+"number": "1006",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T08:50:00",
+"arrival": "T19:24:00",
+"duration_minutes": 634,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T09:42:00",
+"departure": "T09:44:00"
+},
+{
+"station": "Haputale",
+"arrival": "T10:39:00",
+"departure": "T10:41:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:14:00",
+"departure": "T12:16:00"
+},
+{
+"station": "Hatton",
+"arrival": "T13:35:00",
+"departure": "T13:37:00"
+},
+{
+"station": "Kandy",
+"arrival": "T16:19:00",
+"departure": "T16:24:00"
+}
+]
+},
+{
+"id": "SL133",
+"name": "Udarata Menike",
+"number": "1016",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:50:00",
+"arrival": "T16:00:00",
+"duration_minutes": 610,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T06:51:00",
+"departure": "T06:53:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:50:00",
+"departure": "T07:52:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T09:23:00",
+"departure": "T09:25:00"
+},
+{
+"station": "Hatton",
+"arrival": "T10:44:00",
+"departure": "T10:46:00"
+},
+{
+"station": "Kandy",
+"arrival": "T13:12:00",
+"departure": "T13:17:00"
+}
+]
+},
+{
+"id": "SL134",
+"name": "Ruhunu Kumari",
+"number": "8059",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:05:00",
+"arrival": "T09:14:00",
+"duration_minutes": 189,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:03:00",
+"departure": "T07:05:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:18:00",
+"departure": "T08:20:00"
+}
+]
+},
+{
+"id": "SL135",
+"name": "Galu Kumari",
+"number": "8057",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:13:00",
+"arrival": "T09:31:00",
+"duration_minutes": 198,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:25:00",
+"departure": "T07:27:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:47:00",
+"departure": "T08:49:00"
+}
+]
+},
+{
+"id": "SL136",
+"name": "Rajarata Rejina",
+"number": "8085",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T04:15:00",
+"arrival": "T08:19:00",
+"duration_minutes": 244,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T04:51:00",
+"departure": "T04:53:00"
+},
+{
+"station": "Galle",
+"arrival": "T05:57:00",
+"departure": "T05:59:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T07:13:00",
+"departure": "T07:15:00"
+}
+]
+},
+{
+"id": "SL137",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T11:00:00",
+"arrival": "T18:58:00",
+"duration_minutes": 478,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T12:00:00",
+"departure": "T12:02:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T13:14:00",
+"departure": "T13:16:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T14:26:00",
+"departure": "T14:28:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T15:28:00",
+"departure": "T15:30:00"
+}
+]
+},
+{
+"id": "SL138",
+"name": "Uttara Devi",
+"number": "4018",
+"from": "Jaffna",
+"to": "Colombo Fort",
+"departure": "T09:45:00",
+"arrival": "T16:35:00",
+"duration_minutes": 410,
+"distance_km": 398,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class"
+],
+"stops": [
+{
+"station": "Vavuniya",
+"arrival": "T12:30:00",
+"departure": "T12:32:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T13:30:00",
+"departure": "T13:32:00"
+}
+]
+},
+{
+"id": "SL139",
+"name": "Night Mail",
+"number": "6080",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T20:15:00",
+"arrival": "T04:57:00",
+"duration_minutes": 522,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T22:35:00",
+"departure": "T22:37:00"
+},
+{
+"station": "Gal Oya Junction",
+"arrival": "T23:33:00",
+"departure": "T23:35:00"
+}
+]
+},
+{
+"id": "SL140",
+"name": "Pulathisi",
+"number": "6076",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T01:40:00",
+"arrival": "T08:55:00",
+"duration_minutes": 435,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T03:37:00",
+"departure": "T03:39:00"
+},
+{
+"station": "Gal Oya Junction",
+"arrival": "T04:21:00",
+"departure": "T04:23:00"
+},
+{
+"station": "Habarana",
+"arrival": "T04:45:00",
+"departure": "T04:47:00"
+}
+]
+},
+{
+"id": "SL141",
+"name": "Night Mail",
+"number": "1046",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T18:30:00",
+"arrival": "T05:59:00",
+"duration_minutes": 689,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T19:24:00",
+"departure": "T19:26:00"
+},
+{
+"station": "Haputale",
+"arrival": "T20:35:00",
+"departure": "T20:37:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T22:50:00",
+"departure": "T22:52:00"
+},
+{
+"station": "Hatton",
+"arrival": "T00:13:00",
+"departure": "T00:15:00"
+},
+{
+"station": "Kandy",
+"arrival": "T03:00:00",
+"departure": "T03:05:00"
+}
+]
+},
+{
+"id": "SL142",
+"name": "Udarata Menike",
+"number": "1016",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:50:00",
+"arrival": "T16:00:00",
+"duration_minutes": 610,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T06:51:00",
+"departure": "T06:53:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:50:00",
+"departure": "T07:52:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T09:23:00",
+"departure": "T09:25:00"
+},
+{
+"station": "Hatton",
+"arrival": "T10:44:00",
+"departure": "T10:46:00"
+},
+{
+"station": "Kandy",
+"arrival": "T13:12:00",
+"departure": "T13:17:00"
+}
+]
+},
+{
+"id": "SL143",
+"name": "Podi Menike",
+"number": "1006",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T08:50:00",
+"arrival": "T19:24:00",
+"duration_minutes": 634,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Elle",
+"arrival": "T09:42:00",
+"departure": "T09:44:00"
+},
+{
+"station": "Haputale",
+"arrival": "T10:39:00",
+"departure": "T10:41:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:14:00",
+"departure": "T12:16:00"
+},
+{
+"station": "Hatton",
+"arrival": "T13:35:00",
+"departure": "T13:37:00"
+},
+{
+"station": "Kandy",
+"arrival": "T16:19:00",
+"departure": "T16:24:00"
+}
+]
+},
+{
+"id": "SL144",
+"name": "Ruhunu Kumari",
+"number": "8059",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:05:00",
+"arrival": "T09:14:00",
+"duration_minutes": 189,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:03:00",
+"departure": "T07:05:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:18:00",
+"departure": "T08:20:00"
+}
+]
+},
+{
+"id": "SL145",
+"name": "Galu Kumari",
+"number": "8057",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:13:00",
+"arrival": "T09:31:00",
+"duration_minutes": 198,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:25:00",
+"departure": "T07:27:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:47:00",
+"departure": "T08:49:00"
+}
+]
+},
+{
+"id": "SL146",
+"name": "Night Mail",
+"number": "Unknown",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T20:15:00",
+"arrival": "T04:53:00",
+"duration_minutes": 518,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T22:35:00",
+"departure": "T22:37:00"
+},
+{
+"station": "Gal Oya Junction",
+"arrival": "T23:33:00",
+"departure": "T23:35:00"
+}
+]
+},
+{
+"id": "SL147",
+"name": "Pulathisi",
+"number": "6076",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T01:40:00",
+"arrival": "T08:45:00",
+"duration_minutes": 425,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T03:37:00",
+"departure": "T03:39:00"
+},
+{
+"station": "Habarana",
+"arrival": "T04:45:00",
+"departure": "T04:47:00"
+}
+]
+},
+{
+"id": "SL148",
+"name": "Night Mail",
+"number": "Unknown",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T19:00:00",
+"arrival": "T03:30:00",
+"duration_minutes": 510,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Gal Oya Junction",
+"arrival": "T21:05:00",
+"departure": "T21:07:00"
+},
+{
+"station": "Habarana",
+"arrival": "T22:30:00",
+"departure": "T22:32:00"
+}
+]
+},
+{
+"id": "SL149",
+"name": "Commuter",
+"number": "Unknown",
+"from": "Aluthgama",
+"to": "Colombo Fort",
+"departure": "T03:20:00",
+"arrival": "T05:09:00",
+"duration_minutes": 109,
+"distance_km": 60,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kalutara South",
+"arrival": "T04:02:00",
+"departure": "T04:04:00"
+},
+{
+"station": "Panadura",
+"arrival": "T04:32:00",
+"departure": "T04:34:00"
+}
+]
+},
+{
+"id": "SL150",
+"name": "Commuter",
+"number": "Unknown",
+"from": "Avissawella",
+"to": "Colombo Fort",
+"departure": "T05:15:00",
+"arrival": "T07:15:00",
+"duration_minutes": 120,
+"distance_km": 61,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kosgama",
+"arrival": "T05:45:00",
+"departure": "T05:47:00"
+},
+{
+"station": "Homagama",
+"arrival": "T06:15:00",
+"departure": "T06:17:00"
+}
+]
+},
+{
+"id": "SL151",
+"name": "Udarata Menike",
+"number": "1016",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:50:00",
+"arrival": "T16:00:00",
+"duration_minutes": 610,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T06:53:00",
+"departure": "T06:55:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:52:00",
+"departure": "T07:54:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T09:25:00",
+"departure": "T09:27:00"
+},
+{
+"station": "Hatton",
+"arrival": "T10:46:00",
+"departure": "T10:48:00"
+},
+{
+"station": "Kandy",
+"arrival": "T13:17:00",
+"departure": "T13:22:00"
+}
+]
+},
+{
+"id": "SL152",
+"name": "Podi Menike",
+"number": "1006",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T08:50:00",
+"arrival": "T19:24:00",
+"duration_minutes": 634,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T09:44:00",
+"departure": "T09:46:00"
+},
+{
+"station": "Haputale",
+"arrival": "T10:41:00",
+"departure": "T10:43:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:16:00",
+"departure": "T12:18:00"
+},
+{
+"station": "Hatton",
+"arrival": "T13:37:00",
+"departure": "T13:39:00"
+},
+{
+"station": "Kandy",
+"arrival": "T16:24:00",
+"departure": "T16:29:00"
+}
+]
+},
+{
+"id": "SL153",
+"name": "Night Mail",
+"number": "1046",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T18:30:00",
+"arrival": "T05:59:00",
+"duration_minutes": 689,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T19:26:00",
+"departure": "T19:28:00"
+},
+{
+"station": "Haputale",
+"arrival": "T20:37:00",
+"departure": "T20:39:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T22:52:00",
+"departure": "T22:54:00"
+},
+{
+"station": "Hatton",
+"arrival": "T00:15:00",
+"departure": "T00:17:00"
+},
+{
+"station": "Kandy",
+"arrival": "T03:10:00",
+"departure": "T03:15:00"
+}
+]
+},
+{
+"id": "SL154",
+"name": "Ruhunu Kumari",
+"number": "8059",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:05:00",
+"arrival": "T09:14:00",
+"duration_minutes": 189,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:03:00",
+"departure": "T07:05:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:18:00",
+"departure": "T08:20:00"
+}
+]
+},
+{
+"id": "SL155",
+"name": "Galu Kumari",
+"number": "8057",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:13:00",
+"arrival": "T09:31:00",
+"duration_minutes": 198,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:25:00",
+"departure": "T07:27:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:47:00",
+"departure": "T08:49:00"
+}
+]
+},
+{
+"id": "SL156",
+"name": "Rajarata Rejina",
+"number": "8085",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T04:15:00",
+"arrival": "T08:19:00",
+"duration_minutes": 244,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T04:51:00",
+"departure": "T04:53:00"
+},
+{
+"station": "Galle",
+"arrival": "T05:57:00",
+"departure": "T05:59:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T07:13:00",
+"departure": "T07:15:00"
+}
+]
+},
+{
+"id": "SL157",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Jaffna",
+"to": "Colombo Fort",
+"departure": "T11:00:00",
+"arrival": "T18:58:00",
+"duration_minutes": 478,
+"distance_km": 398,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kilinochchi",
+"arrival": "T13:16:00",
+"departure": "T13:18:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T14:28:00",
+"departure": "T14:30:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T15:30:00",
+"departure": "T15:32:00"
+}
+]
+},
+{
+"id": "SL158",
+"name": "A/C Intercity",
+"number": "4022",
+"from": "Jaffna",
+"to": "Colombo Fort",
+"departure": "T14:15:00",
+"arrival": "T20:55:00",
+"duration_minutes": 400,
+"distance_km": 398,
+"daysOfWeek": [
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class A/C"
+],
+"stops": [
+{
+"station": "Vavuniya",
+"arrival": "T16:45:00",
+"departure": "T16:47:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T17:45:00",
+"departure": "T17:47:00"
+}
+]
+},
+{
+"id": "SL159",
+"name": "Sagarika",
+"number": "8097",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T04:49:00",
+"arrival": "T08:10:00",
+"duration_minutes": 201,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T05:20:00",
+"departure": "T05:22:00"
+},
+{
+"station": "Galle",
+"arrival": "T06:30:00",
+"departure": "T06:32:00"
+}
+]
+},
+{
+"id": "SL160",
+"name": "Express Train",
+"number": "8039",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T13:40:00",
+"arrival": "T17:11:00",
+"duration_minutes": 211,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T14:50:00",
+"departure": "T14:52:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T16:18:00",
+"departure": "T16:20:00"
+}
+]
+},
+{
+"id": "SL171",
+"name": "Express Train",
+"number": "8311",
+"from": "Galle",
+"to": "Colombo Fort",
+"departure": "T03:15:00",
+"arrival": "T06:45:00",
+"duration_minutes": 210,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T04:46:00",
+"departure": "T04:48:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T05:26:00",
+"departure": "T05:28:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:15:00",
+"departure": "T06:17:00"
+}
+]
+},
+{
+"id": "SL172",
+"name": "Express Train",
+"number": "8320",
+"from": "Galle",
+"to": "Colombo Fort",
+"departure": "T04:10:00",
+"arrival": "T07:28:00",
+"duration_minutes": 198,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T05:39:00",
+"departure": "T05:41:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:08:00",
+"departure": "T06:10:00"
+},
+{
+"station": "Mount Lavinia",
+"arrival": "T06:59:00",
+"departure": "T07:01:00"
+}
+]
+},
+{
+"id": "SL173",
+"name": "Express Train",
+"number": "8327",
+"from": "Galle",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T08:04:00",
+"duration_minutes": 184,
+"distance_km": 116,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Bentota",
+"arrival": "T06:31:00",
+"departure": "T06:33:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:57:00",
+"departure": "T06:59:00"
+}
+]
+},
+{
+"id": "SL174",
+"name": "Sagarika",
+"number": "8097",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T04:15:00",
+"arrival": "T08:19:00",
+"duration_minutes": 244,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T04:51:00",
+"departure": "T04:53:00"
+},
+{
+"station": "Galle",
+"arrival": "T05:57:00",
+"departure": "T05:59:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T07:13:00",
+"departure": "T07:15:00"
+}
+]
+},
+{
+"id": "SL175",
+"name": "Udarata Menike",
+"number": "1016",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:50:00",
+"arrival": "T16:00:00",
+"duration_minutes": 610,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T06:51:00",
+"departure": "T06:53:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:50:00",
+"departure": "T07:52:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T09:23:00",
+"departure": "T09:25:00"
+},
+{
+"station": "Hatton",
+"arrival": "T10:44:00",
+"departure": "T10:46:00"
+},
+{
+"station": "Kandy",
+"arrival": "T13:12:00",
+"departure": "T13:17:00"
+}
+]
+},
+{
+"id": "SL176",
+"name": "Podi Menike",
+"number": "1006",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T08:50:00",
+"arrival": "T19:24:00",
+"duration_minutes": 634,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T09:42:00",
+"departure": "T09:44:00"
+},
+{
+"station": "Haputale",
+"arrival": "T10:39:00",
+"departure": "T10:41:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T12:14:00",
+"departure": "T12:16:00"
+},
+{
+"station": "Hatton",
+"arrival": "T13:35:00",
+"departure": "T13:37:00"
+},
+{
+"station": "Kandy",
+"arrival": "T16:19:00",
+"departure": "T16:24:00"
+}
+]
+},
+{
+"id": "SL177",
+"name": "Yal Devi",
+"number": "4078",
+"from": "Jaffna",
+"to": "Colombo Fort",
+"departure": "T11:00:00",
+"arrival": "T18:58:00",
+"duration_minutes": 478,
+"distance_km": 398,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kilinochchi",
+"arrival": "T13:16:00",
+"departure": "T13:18:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T14:28:00",
+"departure": "T14:30:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T15:30:00",
+"departure": "T15:32:00"
+}
+]
+},
+{
+"id": "SL178",
+"name": "A/C Intercity",
+"number": "4022",
+"from": "Jaffna",
+"to": "Colombo Fort",
+"departure": "T14:15:00",
+"arrival": "T20:55:00",
+"duration_minutes": 400,
+"distance_km": 398,
+"daysOfWeek": [
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class A/C"
+],
+"stops": [
+{
+"station": "Vavuniya",
+"arrival": "T16:45:00",
+"departure": "T16:47:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T17:45:00",
+"departure": "T17:47:00"
+}
+]
+},
+{
+"id": "SL179",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Avissawella",
+"to": "Colombo Fort",
+"departure": "T04:40:00",
+"arrival": "T06:40:00",
+"duration_minutes": 120,
+"distance_km": 61,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kosgama",
+"arrival": "T05:10:00",
+"departure": "T05:12:00"
+},
+{
+"station": "Homagama",
+"arrival": "T05:45:00",
+"departure": "T05:47:00"
+}
+]
+},
+{
+"id": "SL180",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Aluthgama",
+"to": "Colombo Fort",
+"departure": "T03:20:00",
+"arrival": "T05:09:00",
+"duration_minutes": 109,
+"distance_km": 60,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kalutara South",
+"arrival": "T04:02:00",
+"departure": "T04:04:00"
+},
+{
+"station": "Panadura",
+"arrival": "T04:32:00",
+"departure": "T04:34:00"
+}
+]
+},
+{
+"id": "SL181",
+"name": "Night Mail",
+"number": "7084",
+"from": "Trincomalee",
+"to": "Colombo Fort",
+"departure": "T19:00:00",
+"arrival": "T03:30:00",
+"duration_minutes": 510,
+"distance_km": 270,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Gal Oya Junction",
+"arrival": "T21:05:00",
+"departure": "T21:07:00"
+},
+{
+"station": "Habarana",
+"arrival": "T22:30:00",
+"departure": "T22:32:00"
+},
+{
+"station": "Polonnaruwa",
+"arrival": "T23:10:00",
+"departure": "T23:12:00"
+}
+]
+},
+{
+"id": "SL182",
+"name": "Night Mail",
+"number": "4090",
+"from": "Kankesanthurai",
+"to": "Colombo Fort",
+"departure": "T20:00:00",
+"arrival": "T04:00:00",
+"duration_minutes": 480,
+"distance_km": 413,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Jaffna",
+"arrival": "T21:00:00",
+"departure": "T21:02:00"
+},
+{
+"station": "Kilinochchi",
+"arrival": "T22:30:00",
+"departure": "T22:32:00"
+},
+{
+"station": "Vavuniya",
+"arrival": "T23:45:00",
+"departure": "T23:47:00"
+},
+{
+"station": "Anuradhapura",
+"arrival": "T01:30:00",
+"departure": "T01:32:00"
+}
+]
+},
+{
+"id": "SL183",
+"name": "Night Mail",
+"number": "6080",
+"from": "Batticaloa",
+"to": "Colombo Fort",
+"departure": "T20:15:00",
+"arrival": "T04:57:00",
+"duration_minutes": 522,
+"distance_km": 350,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polonnaruwa",
+"arrival": "T22:35:00",
+"departure": "T22:37:00"
+},
+{
+"station": "Gal Oya Junction",
+"arrival": "T23:33:00",
+"departure": "T23:35:00"
+},
+{
+"station": "Habarana",
+"arrival": "T00:45:00",
+"departure": "T00:47:00"
+}
+]
+},
+{
+"id": "SL184",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Veyangoda",
+"to": "Colombo Fort",
+"departure": "T05:30:00",
+"arrival": "T06:25:00",
+"duration_minutes": 55,
+"distance_km": 35,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Gampaha",
+"arrival": "T05:50:00",
+"departure": "T05:52:00"
+},
+{
+"station": "Ragama",
+"arrival": "T06:10:00",
+"departure": "T06:12:00"
+}
+]
+},
+{
+"id": "SL185",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Rambukkana",
+"to": "Colombo Fort",
+"departure": "T04:30:00",
+"arrival": "T06:01:00",
+"duration_minutes": 91,
+"distance_km": 80,
+"daysOfWeek": [
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Polgahawela",
+"arrival": "T05:00:00",
+"departure": "T05:02:00"
+},
+{
+"station": "Veyangoda",
+"arrival": "T05:40:00",
+"departure": "T05:42:00"
+}
+]
+},
+{
+"id": "SL186",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Kosgama",
+"to": "Colombo Fort",
+"departure": "T05:20:00",
+"arrival": "T06:41:00",
+"duration_minutes": 81,
+"distance_km": 50,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Avissawella",
+"arrival": "T05:40:00",
+"departure": "T05:42:00"
+},
+{
+"station": "Homagama",
+"arrival": "T06:10:00",
+"departure": "T06:12:00"
+}
+]
+},
+{
+"id": "SL187",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Mirigama",
+"to": "Colombo Fort",
+"departure": "T05:40:00",
+"arrival": "T06:57:00",
+"duration_minutes": 77,
+"distance_km": 60,
+"daysOfWeek": [
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Veyangoda",
+"arrival": "T06:10:00",
+"departure": "T06:12:00"
+},
+{
+"station": "Gampaha",
+"arrival": "T06:30:00",
+"departure": "T06:32:00"
+}
+]
+},
+{
+"id": "SL188",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Wadduwa",
+"to": "Colombo Fort",
+"departure": "T06:00:00",
+"arrival": "T07:08:00",
+"duration_minutes": 68,
+"distance_km": 40,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kalutara South",
+"arrival": "T06:15:00",
+"departure": "T06:17:00"
+},
+{
+"station": "Panadura",
+"arrival": "T06:40:00",
+"departure": "T06:42:00"
+}
+]
+},
+{
+"id": "SL189",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Negombo",
+"to": "Colombo Fort",
+"departure": "T06:50:00",
+"arrival": "T08:07:00",
+"duration_minutes": 77,
+"distance_km": 40,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ja-Ela",
+"arrival": "T07:10:00",
+"departure": "T07:12:00"
+},
+{
+"station": "Ragama",
+"arrival": "T07:40:00",
+"departure": "T07:42:00"
+}
+]
+},
+{
+"id": "SL190",
+"name": "Commuter Train",
+"number": "Unknown",
+"from": "Maho",
+"to": "Colombo Fort",
+"departure": "T04:30:00",
+"arrival": "T08:17:00",
+"duration_minutes": 227,
+"distance_km": 150,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"3rd Class"
+],
+"stops": [
+{
+"station": "Kurunegala",
+"arrival": "T05:30:00",
+"departure": "T05:32:00"
+},
+{
+"station": "Polgahawela",
+"arrival": "T06:30:00",
+"departure": "T06:32:00"
+}
+]
+},
+{
+"id": "SL191",
+"name": "Night Mail",
+"number": "1045",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T20:00:00",
+"arrival": "T05:59:00",
+"duration_minutes": 599,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class Sleeper",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T21:00:00",
+"departure": "T21:02:00"
+},
+{
+"station": "Haputale",
+"arrival": "T22:30:00",
+"departure": "T22:32:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T00:45:00",
+"departure": "T00:47:00"
+},
+{
+"station": "Hatton",
+"arrival": "T02:00:00",
+"departure": "T02:02:00"
+},
+{
+"station": "Kandy",
+"arrival": "T04:30:00",
+"departure": "T04:35:00"
+}
+]
+},
+{
+"id": "SL192",
+"name": "Express Train",
+"number": "1038",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T04:00:00",
+"arrival": "T07:12:00",
+"duration_minutes": 192,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T05:00:00",
+"departure": "T05:02:00"
+},
+{
+"station": "Haputale",
+"arrival": "T06:00:00",
+"departure": "T06:02:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T07:30:00",
+"departure": "T07:32:00"
+},
+{
+"station": "Kandy",
+"arrival": "T06:45:00",
+"departure": "T06:47:00"
+}
+]
+},
+{
+"id": "SL193",
+"name": "Express Train",
+"number": "1040",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:00:00",
+"arrival": "T08:07:00",
+"duration_minutes": 187,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T06:00:00",
+"departure": "T06:02:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:00:00",
+"departure": "T07:02:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T08:30:00",
+"departure": "T08:32:00"
+},
+{
+"station": "Kandy",
+"arrival": "T07:45:00",
+"departure": "T07:47:00"
+}
+]
+},
+{
+"id": "SL194",
+"name": "Express Train",
+"number": "1030",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T05:15:00",
+"arrival": "T08:47:00",
+"duration_minutes": 212,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T06:15:00",
+"departure": "T06:17:00"
+},
+{
+"station": "Haputale",
+"arrival": "T07:15:00",
+"departure": "T07:17:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T08:45:00",
+"departure": "T08:47:00"
+},
+{
+"station": "Kandy",
+"arrival": "T08:00:00",
+"departure": "T08:02:00"
+}
+]
+},
+{
+"id": "SL195",
+"name": "Express Train",
+"number": "1036",
+"from": "Badulla",
+"to": "Colombo Fort",
+"departure": "T06:20:00",
+"arrival": "T09:42:00",
+"duration_minutes": 202,
+"distance_km": 292,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class"
+],
+"stops": [
+{
+"station": "Ella",
+"arrival": "T07:20:00",
+"departure": "T07:22:00"
+},
+{
+"station": "Haputale",
+"arrival": "T08:20:00",
+"departure": "T08:22:00"
+},
+{
+"station": "Nanu Oya",
+"arrival": "T09:50:00",
+"departure": "T09:52:00"
+},
+{
+"station": "Kandy",
+"arrival": "T09:00:00",
+"departure": "T09:02:00"
+}
+]
+},
+{
+"id": "SL196",
+"name": "Ruhunu Kumari",
+"number": "8059",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:05:00",
+"arrival": "T09:14:00",
+"duration_minutes": 189,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:03:00",
+"departure": "T07:05:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:18:00",
+"departure": "T08:20:00"
+}
+]
+},
+{
+"id": "SL197",
+"name": "Galu Kumari",
+"number": "8057",
+"from": "Matara",
+"to": "Colombo Fort",
+"departure": "T06:13:00",
+"arrival": "T09:31:00",
+"duration_minutes": 198,
+"distance_km": 159,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday",
+"sunday"
+],
+"classes": [
+"1st Class",
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Galle",
+"arrival": "T07:25:00",
+"departure": "T07:27:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T08:47:00",
+"departure": "T08:49:00"
+}
+]
+},
+{
+"id": "SL198",
+"name": "Express Train",
+"number": "8097",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T04:15:00",
+"arrival": "T08:19:00",
+"duration_minutes": 244,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T04:51:00",
+"departure": "T04:53:00"
+},
+{
+"station": "Galle",
+"arrival": "T05:57:00",
+"departure": "T05:59:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T07:13:00",
+"departure": "T07:15:00"
+}
+]
+},
+{
+"id": "SL199",
+"name": "Express Train",
+"number": "8311",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T02:00:00",
+"arrival": "T06:45:00",
+"duration_minutes": 285,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T02:45:00",
+"departure": "T02:47:00"
+},
+{
+"station": "Galle",
+"arrival": "T03:45:00",
+"departure": "T03:47:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T05:26:00",
+"departure": "T05:28:00"
+}
+]
+},
+{
+"id": "SL200",
+"name": "Express Train",
+"number": "8320",
+"from": "Beliatta",
+"to": "Colombo Fort",
+"departure": "T03:00:00",
+"arrival": "T07:28:00",
+"duration_minutes": 268,
+"distance_km": 177,
+"daysOfWeek": [
+"monday",
+"tuesday",
+"wednesday",
+"thursday",
+"friday",
+"saturday"
+],
+"classes": [
+"2nd Class",
+"3rd Class"
+],
+"stops": [
+{
+"station": "Matara",
+"arrival": "T03:40:00",
+"departure": "T03:42:00"
+},
+{
+"station": "Galle",
+"arrival": "T04:40:00",
+"departure": "T04:42:00"
+},
+{
+"station": "Kalutara South",
+"arrival": "T06:08:00",
+"departure": "T06:10:00"
+}
+]
+}
+]
