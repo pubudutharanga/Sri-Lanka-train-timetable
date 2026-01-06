@@ -192,7 +192,7 @@ export default function PremiumFooter() {
               <div>
                 <h3 className="text-lg font-bold mb-6 flex items-center gap-2">
                   <span className="w-2 h-6 bg-gradient-to-b from-blue-500 to-blue-400 rounded-full"></span>
-                  Contact Us
+                  Contact
                 </h3>
                 <div className="space-y-4">
                   {/* Phone Link */}
