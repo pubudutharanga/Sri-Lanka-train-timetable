@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#0b5fff"/><stop offset="1" stop-color="#0fa77a"/></linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#g)"/>
+  <g fill="#fff" font-family="sans-serif">
+    <text x="60" y="160" font-size="64" font-weight="700">Sri Lanka Railways</text>
+    <text x="60" y="220" font-size="28" opacity="0.9">Modern, easy-to-use, static timetable</text>
+  </g>
+  <g opacity="0.15" transform="translate(700,260)">
+    <rect x="0" y="0" width="420" height="220" rx="16" fill="#fff"/>
+  </g>
+</svg>

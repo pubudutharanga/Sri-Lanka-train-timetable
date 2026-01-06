@@ -1,11 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
+module.exports = {
+  output: 'export',
   images: {
-     unoptimized: true,
-    domains: []
+    unoptimized: true
   },
-  basePath: '/Sri-Lanka-train-timetable',
-  assetPrefix: '/Sri-Lanka-train-timetable/',
+  basePath: '/sri-lanka-train-timetable',
+  assetPrefix: '/sri-lanka-train-timetable/',
 }
-module.exports = nextConfig
