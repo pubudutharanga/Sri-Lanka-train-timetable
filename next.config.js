@@ -2,8 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    // Allow loading images from public folder and remote if needed
+     unoptimized: true,
     domains: []
-  }
+  },
+  basePath: '/Sri-Lanka-train-timetable',
+  assetPrefix: '/Sri-Lanka-train-timetable/',
 }
 module.exports = nextConfig
