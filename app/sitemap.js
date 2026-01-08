@@ -1,9 +1,13 @@
 export default async function sitemap() {
-  const baseUrl = 'https://example.com'
-  const staticPages = ['', '/about']
-  const routes = staticPages.map(path => ({
+  const baseUrl = 'https://pubudutharanga.github.io/Sri-Lanka-train-timetable'
+
+  const staticPages = [
+    '',
+    '/about'
+  ]
+
+  return staticPages.map(path => ({
     url: baseUrl + path,
-    lastModified: new Date().toISOString()
+    lastModified: new Date().toISOString(),
   }))
-  return routes
 }
