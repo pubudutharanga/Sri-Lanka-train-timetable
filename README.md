@@ -51,7 +51,7 @@ A modern, fast, and mobile-friendly web application for searching Sri Lanka Rail
 
 ## 🚀 Live Demo
 
-[**View Live Demo**](https://your-username.github.io/Sri-Lanka-train-timetable/)
+[**View Live Demo**](https://pubudutharanga.github.io/Sri-Lanka-train-timetable/)
 
 ---
 
@@ -313,6 +313,4 @@ If you need help:
 * Check the Issues tab in the repo
 * Create a new issue with details
 * Contact: `pubudutharangel@gmail.com`
-
-⬆ Back to Top
 
