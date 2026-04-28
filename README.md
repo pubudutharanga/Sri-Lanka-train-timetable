@@ -51,7 +51,7 @@ A modern, fast, and mobile-friendly web application for searching Sri Lanka Rail
 
 ## 🚀 Live Demo
 
-[**View Live Demo**](https://pubudutharanga.github.io/Sri-Lanka-train-timetable/)
+[**View Live Demo**](https://sri-lanka-train-timetable.vercel.app/)
 
 ---
 
@@ -217,30 +217,22 @@ module.exports = {
 
 ## 🚢 Deployment
 
-### GitHub Pages (static export)
+### Vercel (Recommended)
+
+The easiest way to deploy this application is using [Vercel](https://vercel.com). Simply connect your GitHub repository and Vercel will handle the build and deployment automatically.
+
+### Manual Static Build
 
 1. Build static files
 
 ```bash
 npm run build
-npm run export
 ```
 
-2. Push the `out/` folder to your `gh-pages` branch or use `/docs` folder on `main`.
-3. Enable GitHub Pages in repository settings and select the `gh-pages` or `/docs` source.
-
-**Note:** Update `basePath` and `assetPrefix` in `next.config.js` to match your repo name:
-
-```js
-module.exports = {
-  basePath: '/your-repo-name',
-  assetPrefix: '/your-repo-name/'
-}
-```
+2. The output will be in the `.next` or `out/` folder depending on your configuration.
 
 ### Other Options
 
-* **Vercel** — One-click deploy with Next.js optimizations.
 * **Netlify** — Deploy the `out/` folder.
 * **Apache/Nginx** — Serve static files from the `out` directory.
 
