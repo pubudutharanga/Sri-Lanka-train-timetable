@@ -185,6 +185,19 @@ export default function PremiumFooter() {
                       Safety Guidelines
                     </a>
                   </li>
+                  
+                  {/* NIC Info Link */}
+                  <li>
+                    <a 
+                      href="https://nicinfo.vercel.app/en"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm text-gray-300 hover:text-white transition-colors flex items-center gap-2 group"
+                    >
+                      <ChevronRight className="w-3 h-3 text-cyan-400 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      NIC Info Sri Lanka
+                    </a>
+                  </li>
                 </ul>
               </div>
 
