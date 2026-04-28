@@ -32,7 +32,7 @@ export default function SearchSection() {
   })
 
   useEffect(() => {
-    fetch('/Sri-Lanka-train-timetable/data/trains.json')
+    fetch('/data/trains.json')
       .then(r => r.json())
       .then(data => {
         setTrains(data)
