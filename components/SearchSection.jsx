@@ -179,11 +179,11 @@ export default function SearchSection() {
     <section className="py-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Header */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-gray-900 mb-3 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
-          Sri Lanka Railway
-        </h1>
+        <h2 className="text-4xl font-bold text-gray-900 mb-3 bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent">
+          Search Sri Lanka Train Schedule
+        </h2>
         <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-          Find train schedules across the island with real-time availability
+          Find Sri Lanka railway timetable and train schedules. Search by route, day, and departure time for all Sri Lanka Railways trains.
         </p>
       </div>
 

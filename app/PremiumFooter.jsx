@@ -303,7 +303,7 @@ export default function PremiumFooter() {
 
               <div className="mt-4 pt-4 border-t border-gray-800/50">
                 <div className="text-center text-xs text-gray-500">
-                  All train data is for demonstration purposes only.
+                  Sri Lanka train timetable data is sourced from publicly available Sri Lanka Railways schedules. Always verify with official sources before travel.
                   <br />
                   <span className="text-gray-400">
                     Official Sri Lanka Railways website:{" "}
@@ -314,6 +314,16 @@ export default function PremiumFooter() {
                       className="text-cyan-300 hover:text-cyan-200 transition-colors"
                     >
                       railway.gov.lk
+                    </a>
+                    {" | "}
+                    Book tickets at{" "}
+                    <a 
+                      href="https://seatreservation.railway.gov.lk/mtktwebslr/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-cyan-300 hover:text-cyan-200 transition-colors"
+                    >
+                      seatreservation.railway.gov.lk
                     </a>
                   </span>
                 </div>

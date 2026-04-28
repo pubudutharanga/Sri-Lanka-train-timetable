@@ -19,9 +19,9 @@ export default function Hero() {
 
   // Local images array
   const heroImages = [
-    "/Sri-Lanka-train-timetable/images/hero2.jpg", 
-    "/Sri-Lanka-train-timetable/images/hero1.jpg",
-    "/Sri-Lanka-train-timetable/images/hero3.png"
+    "/images/hero2.jpg", 
+    "/images/hero1.jpg",
+    "/images/hero3.png"
   ]
 
   useEffect(() => {
@@ -145,15 +145,15 @@ export default function Hero() {
                 className="text-center text-white mb-8"
               >
                 <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-                  <span className="block">Railway Time Table</span>
+                  <span className="block">Sri Lanka Train Timetable</span>
                   <span className="block bg-gradient-to-r from-cyan-300 via-white to-amber-200 bg-clip-text text-transparent">
-                    Sri Lanka
+                    Railway Time Table 2026
                   </span>
                 </h1>
 
                 {/* Subtitle */}
                 <p className="text-lg sm:text-xl text-gray-200 mb-10 leading-relaxed max-w-3xl mx-auto">
-                  Find train times and plan your journey. Search for trains by route.
+                  Search Sri Lanka railway train schedules, departure times &amp; timetables. Find trains from Colombo to Kandy, Galle, Badulla, Jaffna &amp; more.
                 </p>
               </motion.div>
 

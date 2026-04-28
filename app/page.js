@@ -1,7 +1,7 @@
-import Image from 'next/image'
-import dynamic from 'next/dynamic'
 import Hero from '../components/Hero'
 import SearchSection from '../components/SearchSection'
+import SEOContentSection from '../components/SEOContentSection'
+import FAQSection from '../components/FAQSection'
 
 export default function Home() {
   return (
@@ -10,6 +10,8 @@ export default function Home() {
       <div id="search" className="container mx-auto px-4">
         <SearchSection />
       </div>
+      <SEOContentSection />
+      <FAQSection />
     </div>
   )
 }

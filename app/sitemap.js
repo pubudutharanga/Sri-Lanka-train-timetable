@@ -1,13 +1,15 @@
 export default async function sitemap() {
-  const baseUrl = 'https://pubudutharanga.github.io/Sri-Lanka-train-timetable'
+  const baseUrl = 'https://sri-lanka-train-timetable.vercel.app'
 
-  const staticPages = [
-    '',
-    '/about'
+  // Core pages with SEO-optimized priorities and change frequencies
+  const routes = [
+    {
+      url: baseUrl,
+      lastModified: new Date().toISOString(),
+      changeFrequency: 'daily',
+      priority: 1.0,
+    },
   ]
 
-  return staticPages.map(path => ({
-    url: baseUrl + path,
-    lastModified: new Date().toISOString(),
-  }))
+  return routes
 }
