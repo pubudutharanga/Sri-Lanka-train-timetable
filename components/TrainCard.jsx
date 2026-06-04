@@ -1,5 +1,5 @@
 'use client'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 
 function minutesToH(duration){
@@ -65,7 +65,7 @@ const getClassColor = (className) => {
 
 // ... (previous code remains the same)
 
-export default function TrainCard({ train }){
+export default React.memo(function TrainCard({ train }){
   const [open, setOpen] = useState(false)
   const [isHovered, setIsHovered] = useState(false)
   
@@ -381,4 +381,4 @@ export default function TrainCard({ train }){
       </div>
     </motion.div>
   )
-}
+})

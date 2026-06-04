@@ -1,5 +1,8 @@
 'use client'
 import { useEffect, useState } from 'react'
+import { useQuery } from '@tanstack/react-query'
+import * as reactWindowModule from 'react-window'
+const List = reactWindowModule.FixedSizeList || reactWindowModule.default?.FixedSizeList
 import TrainCard from './TrainCard'
 import * as Select from '@radix-ui/react-select'
 import { 
@@ -16,8 +19,6 @@ import {
 } from 'lucide-react'
 
 export default function SearchSection() {
-  const [trains, setTrains] = useState([])
-  const [loading, setLoading] = useState(true)
   const [query, setQuery] = useState({
     dayType: 'any',
     time: 'any',
@@ -31,18 +32,20 @@ export default function SearchSection() {
     time: false
   })
 
+  const { data: trains = [], isLoading: loading, isError } = useQuery({
+    queryKey: ['trains'],
+    queryFn: async () => {
+      const res = await fetch('/data/trains.json')
+      if (!res.ok) throw new Error('Failed to fetch')
+      return res.json()
+    }
+  })
+
   useEffect(() => {
-    fetch('/data/trains.json')
-      .then(r => r.json())
-      .then(data => {
-        setTrains(data)
-        setLoading(false)
-      })
-      .catch(err => {
-        setError('Failed to load timetable data.')
-        setLoading(false)
-      })
-  }, [])
+    if (isError) {
+      setError('Failed to load timetable data.')
+    }
+  }, [isError])
 
   function validate() {
     if (!query.route) return 'Please select a route.'
@@ -600,11 +603,30 @@ export default function SearchSection() {
                 Sorted by departure time
               </div>
             </div>
-            {results.map(train => (
-              <div key={train.id} className="transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-                <TrainCard train={train} />
+            {results.length > 10 ? (
+              <div style={{ height: '600px', width: '100%' }}>
+                <List
+                  height={600}
+                  itemCount={results.length}
+                  itemSize={260}
+                  width="100%"
+                >
+                  {({ index, style }) => (
+                    <div style={{ ...style, paddingBottom: '20px' }}>
+                      <div className="h-full transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
+                        <TrainCard train={results[index]} />
+                      </div>
+                    </div>
+                  )}
+                </List>
               </div>
-            ))}
+            ) : (
+              results.map(train => (
+                <div key={train.id} className="transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
+                  <TrainCard train={train} />
+                </div>
+              ))
+            )}
           </div>
         )}
       </div>

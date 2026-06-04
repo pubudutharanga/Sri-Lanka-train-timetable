@@ -2,6 +2,8 @@ import '../styles/globals.css'
 import { Inter } from 'next/font/google'
 import PremiumFooter from './PremiumFooter'
 import GoogleAnalytics from '../components/GoogleAnalytics'
+import Providers from './providers'
+import { WebVitals } from '../components/WebVitals'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -13,21 +15,9 @@ export const metadata = {
 
   // ── Favicon & Icons ──────────────────────────────────────────────────
   icons: {
-    icon: [
-      { url: '/favicon-48x48.png', sizes: '48x48', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon.ico', sizes: 'any' },
-    ],
-    apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
-    ],
-    other: [
-      { rel: 'icon', url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
-      { rel: 'icon', url: '/favicon-144x144.png', sizes: '144x144', type: 'image/png' },
-      { rel: 'icon', url: '/android-chrome-192x192.png', sizes: '192x192', type: 'image/png' },
-      { rel: 'icon', url: '/android-chrome-512x512.png', sizes: '512x512', type: 'image/png' },
-    ],
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
   },
 
   // ── Web App Manifest ─────────────────────────────────────────────────
@@ -608,8 +598,11 @@ export default function RootLayout({ children }) {
         <link rel="alternate" hrefLang="x-default" href={BASE_URL} />
       </head>
       <body className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+        <WebVitals />
         <GoogleAnalytics />
-        {children}
+        <Providers>
+          {children}
+        </Providers>
         <PremiumFooter />
       </body>
     </html>

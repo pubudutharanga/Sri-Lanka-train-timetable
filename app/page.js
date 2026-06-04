@@ -1,7 +1,12 @@
 import Hero from '../components/Hero'
-import SearchSection from '../components/SearchSection'
 import SEOContentSection from '../components/SEOContentSection'
-import FAQSection from '../components/FAQSection'
+import dynamic from 'next/dynamic'
+
+const SearchSection = dynamic(() => import('../components/SearchSection'), {
+  ssr: false,
+})
+
+const FAQSection = dynamic(() => import('../components/FAQSection'))
 
 export default function Home() {
   return (
