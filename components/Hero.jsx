@@ -5,7 +5,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 export default function Hero() {
   const scrollToSearch = () => {
-    document.getElementById('search')?.scrollIntoView({ 
+    document.getElementById('search')?.scrollIntoView({
       behavior: 'smooth',
       block: 'start'
     })
@@ -16,13 +16,13 @@ export default function Hero() {
   return (
     <section className="relative min-h-[60vh] md:min-h-[90vh] flex items-center justify-center overflow-hidden bg-slate-950">
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url("/images/hero2.jpg")` }}
       >
         {/* Dark subtle overlay for contrast */}
         <div className="absolute inset-0 bg-slate-950/70" />
-        
+
         {/* Modern Mesh Gradient Overlay */}
         <div className="absolute inset-0 opacity-40 mix-blend-screen">
           <div className="absolute -top-1/4 -left-1/4 w-[150%] h-[150%] bg-[radial-gradient(circle_at_50%_50%,rgba(56,189,248,0.2)_0%,transparent_50%)] animate-slow-spin" />
@@ -32,9 +32,9 @@ export default function Hero() {
 
       <div className="container relative z-10 mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
-          
+
           {/* Text & CTA */}
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
@@ -44,9 +44,9 @@ export default function Hero() {
               <span className="flex h-2 w-2 rounded-full bg-cyan-400 animate-pulse"></span>
               <span className="text-sm font-medium text-cyan-50 tracking-wide uppercase">2026 Timetable — Based on Official Railway Data</span>
             </div>
-            
+
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
-              Sri Lanka Train Timetable — Search{' '}<br />
+              Sri Lanka Train Timetable{' '}<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500">
                 <TypeAnimation
                   sequence={[
@@ -63,12 +63,12 @@ export default function Hero() {
               </span>{' '}<br />
               Railway Schedules
             </h1>
-            
+
             <p className="text-lg sm:text-xl text-slate-300 max-w-xl leading-relaxed">
               Experience the scenic beauty of Sri Lanka. Search reliable railway schedules, departure times, and routes for your next journey.
             </p>
 
-            <motion.div 
+            <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4, duration: 0.6 }}
