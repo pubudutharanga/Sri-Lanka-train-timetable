@@ -25,237 +25,19 @@ export const metadata = {
 
   // ── Primary Meta Tags ────────────────────────────────────────────────
   title: {
-    default: 'Sri Lanka Train Timetable 2026 — Railway Time Table & Schedule Today',
-    template: '%s | Sri Lanka Railway Timetable',
+    default: 'Sri Lanka Train Timetable 2026 | Railway Schedule & Times',
+    template: '%s | Sri Lanka Train Timetable 2026',
   },
   description:
-    'Search Sri Lanka railway time table 2026. Find train schedules, departure times, routes from Colombo Fort to Kandy, Galle, Badulla, Jaffna & more. Updated daily train timetable for Sri Lanka Railways.',
+    'Search the 2026 Sri Lanka railway timetable. Find train schedules and departure times for Colombo Fort → Kandy, Galle, Badulla, Jaffna and 100+ stations. Updated daily.',
   
-  // ── Keyword-rich metadata ────────────────────────────────────────────
+  // ── Core keywords (kept minimal — Google ignores meta keywords) ──
   keywords: [
-    // ── P0: Highest volume (4,000+ impressions) ──
-    'train schedule',
-    'train schedule sri lanka',
-    'railway time table',
-    'train time table',
-    'sri lanka railway time table',
-    'train timetable',
-
-    // ── P1: High volume (50–655 impressions) ──
-    'train schedule in sri lanka',
-    'sri lanka railway time table today',
-    'train time table sri lanka',
-    'www railway gov lk time table',
-    'srilanka train time table',
-    'sri lanka train time',
-    'railway schedule',
-    'train schedules sri lanka',
-    'sri lanka railway train schedule',
-    'train shedule sri lanka',
-    '2026 train time table',
-    'sri lanka trains schedule',
-    'train schedule sri lanka railway',
-    'today train time table',
-
-    // ── P2: Route-specific keywords ──
-    'colombo train time table',
-    'fort to anuradhapura train time table',
-    'galle to trincomalee train time table',
-    'jaffna train time table',
-    'kalutara to galle train time table',
-    'moratuwa to anuradhapura train time table',
-    'moratuwa to maradana train time table',
-    'talaimannar to colombo train time table',
-    'train schedule colombo',
-    'train schedule colombo to negombo',
-    'train schedule negombo colombo fort early morning',
-    'train schedule galle',
-    'train schedule mirigama',
-    'train from colombo to jaffna',
-    'india to sri lanka train time table',
-    'sri lanka train schedule vavuniya colombo 2026',
-    'rabukkana railway station time table 2026',
-    'today train time table sri lanka to colombo',
-    'sri lanka railway time table today colombo',
-    'sri lanka railway time table today colombo fort',
-
-    // ── P3: Sri Lanka variations ──
-    'sri lanka train schedule',
-    'sri lanka train time table',
-    'sri lanka train times',
     'sri lanka train timetable',
-    'sri lanka train timetable 2026',
-    'sri lanka train timetables',
-    'sri lanka train schedules',
-    'sri lanka train shedule',
-    'sri lanka train status',
-    'sri lanka railways schedule',
-    'sri lanka railways timetable',
-    'sri lanka railways train schedule',
-    'sri lanka railways time table',
-    'sri lanka railways official website timetable',
-    'sri lanka railway schedule',
-    'sri lanka railway time',
-    'sri lanka railway timetable',
-    'sri lanka railway time table 2026',
-    'sri lanka railway time table tomorrow',
-    'sri lanka railway time table tomorrow morning',
-    'sri lanka railway time table today pdf',
-    'sri lanka railway time table today pdf download',
-    'sri lanka railway time table tomorrow pdf',
-    'sri lanka railway time table 2022',
-    'sri lanka schedule',
-    'sri lanka timetable',
-    'sri lanka train',
-    'sri lanka train schedule today',
-    'sri lanka train schedule tomorrow',
-    'sri lanka train time table today',
-    'sri lanka trains timetable',
-
-    // ── P4: SL / Lankan variations ──
-    'sl railway schedule',
-    'sl railway time table',
-    'sl train schedule',
-    'sl train time table',
-    'slr time table',
-    'sri lankan railway schedule',
-    'sri lankan railway time table',
-    'sri lankan railways timetable',
-    'sri lankan train schedule',
-    'sri lankan train time table',
-    'sri lankan train times',
-    'srilanka train schedule',
-    'srilankan train time table',
-    'lanka train schedule',
-
-    // ── P5: Railway variations ──
-    'railway time table sri lanka',
-    'railway time table 2026',
-    'railway time table today',
-    'railway time today',
-    'railway times',
-    'railway timetable',
-    'railway timetable sri lanka',
-    'railway timing',
-    'railway train schedule',
-    'railway schedule sri lanka',
-    'railway schedule time',
-    'railway schedule today',
-    'railway sri lanka schedule',
-    'railway sri lanka time table',
-    'railway station time',
-    'railway station time table',
-    'railway new time table 2026',
-    'railway shedule',
-    'railway.gov.lk schedule',
-    'railways schedule',
-    'railways time table',
-    'railwaytimetable',
-
-    // ── P6: Rail / time variations ──
-    'rail schedule',
-    'rail time',
-    'rail time table',
-    'rail times',
-    'rail timetable',
-    'rail timetables',
-
-    // ── P7: Action & search queries ──
-    'search train',
-    'search train schedule',
-    'search train sri lanka',
-    'search train time',
-    'find train schedule',
-    'how to find train time',
-    'how to find train time table',
-    'how to find train timings',
-    'how to see train time table',
-    'online train schedule',
-    'live train schedule',
-    'live train schedule sri lanka',
-    'train search',
-
-    // ── P8: Schedule variations ──
-    'schedule of train',
-    'schedule train',
-    'schedule train sri lanka',
-    'train schedule today',
-    'train schedule tomorrow',
-    'train schedule sunday',
-    'train schedule for today',
-    'train schedule for tomorrow',
-    'train schedule time',
-    'train schedule time table',
-    'train schedule srilanka',
-    'train schedule new',
-    'train schedule.lk',
-    'train scheduled',
-    'train schedules',
-    'train schedules sri lanka march 2026',
-
-    // ── P9: Time table variations ──
-    'time schedule of train',
-    'time schedule train',
-    'time table of railway',
-    'time table of train',
-    'time table railway',
-    'time table railway 2026',
-    'time table railway station',
-    'time table sri lanka railway',
-    'time table train',
-    'time table train sri lanka',
-    'time train',
-    'time train time',
-    'timetable for train',
-    'timetable train',
-    'timetable train sri lanka',
-
-    // ── P10: Today / tomorrow / day queries ──
-    'today railway time table',
-    'today time table train',
-    'today train schedule',
-    'today train time',
-    'today train time table sri lanka',
-    'today trains schedule',
-    'tomorrow train schedule',
-    'tomorrow train time table',
-    'now train time',
-    'daily train',
-    'sunday train time table',
-    'sunday train times',
-    'sunday train timetable',
-    'saturday railway time table',
-    'thursday train time',
-    'to day train',
-    'to day train time table',
-
-    // ── P11: Misspelling coverage ──
-    'train shedule sri lanka',
-    'train scedule',
-    'train scheduel',
-    'train scheduke',
-    'train schedula',
-    'train scheule',
-    'train sechdule',
-    'railway shedule',
-    'tarin schedule',
-    'tarain time',
-    'trai time',
-    'etrain schedule',
-    'relwe time table',
-
-    // ── P12: Other languages ──
-    'horaires train sri lanka',
-    'කොටුව දුම්රිය කාලසටහන 2026',
-
-    // ── P13: Remaining long-tail ──
-    'sri lanka railways timetable revised effective december 2 2025',
-    'colombo to kandy train schedule',
-    'colombo to galle train time',
-    'colombo to badulla train',
-    'colombo to jaffna train',
-    'train sc',
-    'train sched',
+    'sri lanka railway time table',
+    'train schedule sri lanka',
+    'railway schedule 2026',
+    'colombo train schedule',
   ],
 
   // ── Canonical URL ────────────────────────────────────────────────────
@@ -269,7 +51,7 @@ export const metadata = {
     locale: 'en_LK',
     url: BASE_URL,
     siteName: 'Sri Lanka Train Timetable',
-    title: 'Sri Lanka Train Timetable 2026 — Railway Schedule & Time Table Today',
+    title: 'Sri Lanka Train Timetable 2026 | Railway Schedule & Times',
     description:
       'Search Sri Lanka Railways train schedules. Find departure times, routes, and timetables for Colombo Fort, Kandy, Galle, Badulla, Jaffna, and all stations across Sri Lanka.',
     images: [
@@ -286,7 +68,7 @@ export const metadata = {
   // ── Twitter Card ─────────────────────────────────────────────────────
   twitter: {
     card: 'summary_large_image',
-    title: 'Sri Lanka Train Timetable 2026 — Railway Time Table & Schedule',
+    title: 'Sri Lanka Train Timetable 2026 | Railway Schedule & Times',
     description:
       'Find Sri Lanka railway timetables, train schedules & departure times. Search trains from Colombo to Kandy, Galle, Jaffna & all stations.',
     images: [`${BASE_URL}/images/hero2.jpg`],
@@ -317,8 +99,8 @@ export const metadata = {
   creator: 'Pubudu Tharanga',
   publisher: 'Sri Lanka Train Timetable',
   formatDetection: {
-    telephone: true,
-    date: true,
+    telephone: false,
+    date: false,
   },
   other: {
     'geo.region': 'LK',
@@ -353,7 +135,7 @@ function WebSiteJsonLd() {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: `${BASE_URL}/#search?route={search_term_string}`,
+        urlTemplate: 'https://sri-lanka-train-timetable.vercel.app/search?q={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },
@@ -377,34 +159,19 @@ function WebSiteJsonLd() {
   )
 }
 
-function WebApplicationJsonLd() {
+function OrganizationJsonLd() {
   const structuredData = {
     '@context': 'https://schema.org',
-    '@type': 'WebApplication',
+    '@type': 'Organization',
     name: 'Sri Lanka Train Timetable',
     url: BASE_URL,
-    applicationCategory: 'TravelApplication',
-    operatingSystem: 'All',
-    browserRequirements: 'Requires JavaScript',
+    logo: `${BASE_URL}/logo.png`,
     description:
-      'Free online Sri Lanka railway timetable search tool. Find train schedules, departure and arrival times for all Sri Lanka Railways routes including Colombo Fort, Kandy, Galle, Badulla, Jaffna, Batticaloa, Matara and more.',
-    offers: {
-      '@type': 'Offer',
-      price: '0',
-      priceCurrency: 'LKR',
-    },
-    aggregateRating: {
-      '@type': 'AggregateRating',
-      ratingValue: '4.8',
-      reviewCount: '1250',
-      bestRating: '5',
-      worstRating: '1',
-    },
-    author: {
-      '@type': 'Person',
-      name: 'Pubudu Tharanga',
-      url: 'https://www.linkedin.com/in/pubudutharanga',
-    },
+      'Free online search tool for Sri Lanka Railways train schedules and timetables.',
+    sameAs: [
+      'https://www.linkedin.com/in/pubudutharanga',
+      'https://github.com/pubudutharanga',
+    ],
   }
 
   return (
@@ -415,141 +182,7 @@ function WebApplicationJsonLd() {
   )
 }
 
-function FAQJsonLd() {
-  const faqData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'How do I find the train schedule in Sri Lanka?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'You can search for Sri Lanka train schedules on our website by selecting your departure and arrival stations. We provide updated timetables for all Sri Lanka Railways routes including Colombo Fort to Kandy, Galle, Badulla, Jaffna, Anuradhapura, Batticaloa, Negombo, and more.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What is the Sri Lanka railway time table for today?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: "Our website shows the current Sri Lanka railway timetable updated daily. Select your route and filter by day type (weekday, Saturday, Sunday) to see today's train schedule with departure times, arrival times, duration, and all intermediate stops.",
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'How can I check the Colombo Fort train time table?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Select Colombo Fort as your departure station. You can find trains to Kandy, Badulla (via Ella), Galle, Matara, Jaffna, Kankesanthurai, Batticaloa, Anuradhapura, and Negombo. Express trains like Podi Menike, Udarata Menike, and Yal Devi depart from Colombo Fort.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What trains run on Saturday and Sunday in Sri Lanka?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Many Sri Lanka Railways trains operate on weekends. Use the Day Type filter to see Saturday railway time table, Sunday train timetable, or weekend-only schedules. Express trains like Podi Menike and Udarata Menike run daily including Saturday and Sunday.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Where can I find the railway time table for 2026?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Our website provides the latest 2026 Sri Lanka railway timetable with updated train times, routes, and operating days. The railway new time table 2026 reflects the most current schedule as published by Sri Lanka Railways.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What are the popular train routes in Sri Lanka?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Popular routes include Colombo Fort to Kandy (~3hrs), Colombo to Galle/Matara (coastal, ~2-3hrs), Colombo to Badulla via Ella (~9hrs), Colombo to Jaffna (~7hrs), Fort to Anuradhapura, Kalutara to Galle, Moratuwa to Maradana, Colombo to Negombo, and Colombo to Batticaloa (~8hrs).',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Is there a train from Colombo to Jaffna?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Yes, the Yal Devi and Uttara Devi express trains run from Colombo Fort to Jaffna and Kankesanthurai daily. The journey takes 6-7 hours via Anuradhapura, Vavuniya, Kilinochchi, and Pallai with 1st, 2nd, and 3rd class available.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: "How to find tomorrow's train time table?",
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: "Select your route and use the Day Type filter matching tomorrow's day (weekday/Saturday/Sunday). The Sri Lanka railway time table tomorrow shows all scheduled trains. Plan morning or evening journeys in advance.",
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Can I download the Sri Lanka railway time table PDF?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Use your browser print function (Ctrl+P) to save search results as PDF. For the official railway time table PDF download, visit railway.gov.lk. Our online train schedule is faster to search and always up-to-date.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What is the Fort to Anuradhapura train time table?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Several trains run from Colombo Fort to Anuradhapura on the Northern line. The Yal Devi express covers this route in 4-5 hours. The Rajarata Rajina also serves this route. 1st, 2nd, and 3rd class seats are available.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Where is the official Sri Lanka Railways website?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'The official Sri Lanka Railways website is www.railway.gov.lk with timetable information. Book tickets at seatreservation.railway.gov.lk. Our site provides a fast, mobile-friendly alternative for searching the railway schedule.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What is the Colombo to Negombo train schedule?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'The Colombo Fort to Negombo route is on the Puttalam line with multiple daily trains including early morning services. The journey takes about 1-1.5 hours. Search Panadura to Chilaw routes that pass through Negombo.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What is the Kalutara to Galle train time table?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'The Kalutara to Galle route is on the Coastal line. Multiple trains pass through Kalutara South heading to Galle daily. The journey takes 1.5-2 hours via Bentota, Ambalangoda, and Hikkaduwa.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Is there a live train schedule for Sri Lanka?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Our website provides the latest scheduled timetable for all Sri Lanka Railways routes. The online train schedule is regularly updated. For real-time train status, contact Sri Lanka Railways. Our search tool offers the most current daily train schedules.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'කොටුව දුම්රිය කාලසටහන 2026 — Colombo Fort train schedule?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'කොටුව (Colombo Fort) station serves all major routes across Sri Lanka. Search our timetable for 2026 train schedules from Colombo Fort to Kandy, Badulla, Galle, Matara, Jaffna, Batticaloa, and Anuradhapura.',
-        },
-      },
-    ],
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
-    />
-  )
-}
+// FAQPage JSON-LD is now rendered at the page level, not in the root layout
 
 function BreadcrumbJsonLd() {
   const breadcrumbData = {
@@ -585,8 +218,7 @@ export default function RootLayout({ children }) {
       <head>
         {/* JSON-LD Structured Data */}
         <WebSiteJsonLd />
-        <WebApplicationJsonLd />
-        <FAQJsonLd />
+        <OrganizationJsonLd />
         <BreadcrumbJsonLd />
 
         {/* Preconnect for performance */}
@@ -596,6 +228,9 @@ export default function RootLayout({ children }) {
         {/* Hreflang for geo-targeting */}
         <link rel="alternate" hrefLang="en" href={BASE_URL} />
         <link rel="alternate" hrefLang="x-default" href={BASE_URL} />
+        
+        {/* Popunder Advertisement */}
+        <script async src="https://pl29817610.effectivecpmnetwork.com/e9/69/00/e969005cc95db274d9d23bb09b3d8ee3.js"></script>
       </head>
       <body className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <WebVitals />

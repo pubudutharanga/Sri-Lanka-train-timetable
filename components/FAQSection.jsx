@@ -38,78 +38,36 @@ const faqItems = [
     answer:
       'You can book Sri Lanka railway tickets online through the official Sri Lanka Railways seat reservation portal at seatreservation.railway.gov.lk. Our website helps you find the right train schedule first, then you can proceed to the official booking platform. For the official timetable, you can also check www.railway.gov.lk time table section. The railway.gov.lk schedule page has official information.',
   },
-  {
-    question: 'Is there a train from Colombo to Jaffna?',
-    answer:
-      'Yes, there are trains from Colombo Fort to Jaffna and Kankesanthurai. The Yal Devi and Uttara Devi express trains operate on this route daily. The journey takes approximately 6-7 hours with stops at Anuradhapura, Vavuniya, Kilinochchi, and Pallai. Both 1st class, 2nd class, and 3rd class are available. Search "Colombo Fort to Kankesanthurai" in our timetable.',
-  },
-  {
-    question: 'What is the train schedule from Galle to Colombo?',
-    answer:
-      'Multiple trains operate on the Galle to Colombo coastal line daily. The journey takes approximately 2-3 hours depending on the service type. Express trains like Ruhunu Kumari and Galu Kumari serve this route with stops at Hikkaduwa, Ambalangoda, Bentota, Kalutara, and Panadura. Search for the Galle to Colombo route in our timetable to see all available departures.',
-  },
-  {
-    question: "How can I find tomorrow's train time table?",
-    answer:
-      "To find tomorrow's train schedule, use our search tool and select your route. Then use the Day Type filter to match tomorrow's day (weekday, Saturday, or Sunday). The timetable shows all trains operating on that day type. You can plan ahead with the Sri Lanka railway time table tomorrow feature and check morning trains or evening options.",
-  },
-  {
-    question: 'What is the train schedule from Colombo to Negombo?',
-    answer:
-      'The Colombo Fort to Negombo route is part of the Puttalam line (Coastal/Northern). Multiple trains run daily including early morning services. The train schedule Negombo Colombo Fort early morning starts around 5 AM. The journey takes about 1-1.5 hours. Search "Panadura to Chilaw" or similar routes that pass through Negombo in our timetable.',
-  },
-  {
-    question: 'Can I download the Sri Lanka railway time table as PDF?',
-    answer:
-      'While our website provides an interactive online search tool for the Sri Lanka railway time table, you can use your browser\'s print function (Ctrl+P) to save results as PDF. For the official PDF timetable download, visit the Sri Lanka Railways official website at railway.gov.lk. Our online train schedule is always up-to-date and faster to search than PDF documents.',
-  },
-  {
-    question: 'What is the Fort to Anuradhapura train time table?',
-    answer:
-      'Several trains run from Colombo Fort to Anuradhapura on the Northern line. The Yal Devi express covers this route in approximately 4-5 hours with stops at Polgahawela and Kurunegala. The Rajarata Rajina also serves this route. Both 1st class, 2nd class, and 3rd class seats are available. Check our timetable for all Fort to Anuradhapura departures.',
-  },
-  {
-    question: 'What about the Vavuniya to Colombo train schedule?',
-    answer:
-      'The Vavuniya to Colombo route is served by the Northern line trains. Popular services include the Yal Devi express. The Sri Lanka train schedule Vavuniya Colombo 2026 shows multiple daily departures. The journey passes through Anuradhapura before reaching Colombo Fort. Search our timetable for the latest departure times and train availability.',
-  },
-  {
-    question: 'Is there a live train schedule for Sri Lanka?',
-    answer:
-      'Our website shows the scheduled train timetable for Sri Lanka Railways. While we don\'t provide real-time GPS tracking, our timetable is updated to reflect the latest railway schedule. For live train status updates, you can contact Sri Lanka Railways directly. Our search tool provides the most current scheduled times for daily train services across all routes.',
-  },
-  {
-    question: 'What is the Rabukkana railway station time table?',
-    answer:
-      'Rabukkana railway station is located on the Main Line between Colombo Fort and Kandy. Trains from Colombo to Kandy, Badulla, and Nanu Oya stop at Rabukkana. The Rabukkana railway station time table 2026 includes express and slow trains. Search for Colombo Fort to Kandy or Colombo Fort to Badulla routes to see trains stopping at Rabukkana.',
-  },
-  {
-    question: 'What is the Talaimannar to Colombo train schedule?',
-    answer:
-      'The Talaimannar line connects Talaimannar to Colombo via Madhu Road and Anuradhapura on the Northern line. The Talaimannar to Colombo train time table shows limited services. Check our search tool for the latest schedule. This historic route connects to the northernmost point of the Sri Lanka railway network.',
-  },
-  {
-    question: 'How can I find the Kalutara to Galle train time table?',
-    answer:
-      'The Kalutara to Galle route is on the Coastal line. Multiple trains pass through Kalutara South station heading to Galle daily. The journey takes approximately 1.5-2 hours via Bentota, Ambalangoda, and Hikkaduwa. Search for Maradana to Galle or Colombo Fort to Matara routes that stop at Kalutara to see all available trains.',
-  },
-  {
-    question: 'What is the Moratuwa to Maradana train time table?',
-    answer:
-      'Moratuwa station is on the Coastal line, just south of Colombo. Many trains pass through Moratuwa heading to Maradana throughout the day. The journey takes approximately 30-45 minutes. This is a popular commuter route with frequent daily train services. Search coastal line routes in our timetable for Moratuwa departures.',
-  },
-  {
-    question: 'කොටුව දුම්රිය කාලසටහන 2026 — Colombo Fort train schedule in Sinhala?',
-    answer:
-      'කොටුව (Colombo Fort) දුම්රිය පොළෙන් කොළඹ මහනගරයේ සිට ශ්‍රී ලංකාවේ සෑම ප්‍රධාන ගමනාන්තයකටම දුම්රිය ධාවනය වේ. Our timetable covers all trains from Colombo Fort (කොටුව) to Kandy, Badulla, Galle, Matara, Jaffna, and Batticaloa. Search any route above to see the 2026 දුම්රිය කාලසටහන (train timetable).',
-  },
 ]
+
+function FAQJsonLd() {
+  const faqData = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqItems.map(item => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  }
+
+  return (
+    <script
+      type="application/ld+json"
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
+    />
+  )
+}
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null)
 
   return (
     <section className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" id="faq">
+      <FAQJsonLd />
       {/* Section Header */}
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 rounded-full border border-amber-200/50 mb-4">

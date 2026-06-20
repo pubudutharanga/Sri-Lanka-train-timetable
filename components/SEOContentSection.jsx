@@ -24,6 +24,7 @@ const popularRoutes = [
     bgColor: 'bg-emerald-50',
     borderColor: 'border-emerald-200',
     description: 'Travel through lush green tea plantations on the famous hill country line.',
+    href: '/route/colombo-fort-to-kandy',
   },
   {
     from: 'Colombo Fort',
@@ -37,6 +38,7 @@ const popularRoutes = [
     bgColor: 'bg-blue-50',
     borderColor: 'border-blue-200',
     description: 'Ride along the stunning Sri Lanka coastline with breathtaking ocean views.',
+    href: '/route/colombo-fort-to-galle',
   },
   {
     from: 'Colombo Fort',
@@ -50,6 +52,7 @@ const popularRoutes = [
     bgColor: 'bg-purple-50',
     borderColor: 'border-purple-200',
     description: 'World-famous train ride through Ella, Nine Arch Bridge & tea country.',
+    href: '/route/colombo-fort-to-badulla',
   },
   {
     from: 'Colombo Fort',
@@ -63,6 +66,7 @@ const popularRoutes = [
     bgColor: 'bg-amber-50',
     borderColor: 'border-amber-200',
     description: 'Express service to the cultural capital of the north via Anuradhapura.',
+    href: '/route/colombo-fort-to-jaffna',
   },
   {
     from: 'Colombo Fort',
@@ -76,6 +80,7 @@ const popularRoutes = [
     bgColor: 'bg-teal-50',
     borderColor: 'border-teal-200',
     description: 'Journey along the southern coast to Matara via Galle and Hikkaduwa.',
+    href: '/route/colombo-fort-to-matara',
   },
   {
     from: 'Colombo Fort',
@@ -89,6 +94,7 @@ const popularRoutes = [
     bgColor: 'bg-rose-50',
     borderColor: 'border-rose-200',
     description: 'Travel east through Polonnaruwa to the lagoon city of Batticaloa.',
+    href: '/route/colombo-fort-to-batticaloa',
   },
 ]
 
@@ -132,10 +138,10 @@ export default function SEOContentSection() {
           {popularRoutes.map((route, index) => {
             const IconComponent = route.icon
             return (
-              <div
+              <a
                 key={index}
-                onClick={scrollToSearch}
-                className={`group relative ${route.bgColor} rounded-2xl border ${route.borderColor} p-6 cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden`}
+                href={route.href}
+                className={`block group relative ${route.bgColor} rounded-2xl border ${route.borderColor} p-6 cursor-pointer hover:shadow-xl transition-all duration-300 hover:-translate-y-1 overflow-hidden`}
               >
                 {/* Decorative gradient */}
                 <div className={`absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl ${route.color} opacity-5 rounded-full -translate-y-8 translate-x-8 group-hover:opacity-10 transition-opacity`}></div>
@@ -189,7 +195,7 @@ export default function SEOContentSection() {
                     </span>
                   </div>
                 </div>
-              </div>
+              </a>
             )
           })}
         </div>
@@ -208,22 +214,17 @@ export default function SEOContentSection() {
                 About Sri Lanka Train Timetable
               </h3>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Welcome to Sri Lanka Train Timetable — your comprehensive guide to <strong>Sri Lanka railway time table</strong> and{' '}
-                <strong>train schedules</strong>. Our platform provides up-to-date <strong>train timetables</strong> for all{' '}
-                <strong>Sri Lanka Railways</strong> routes, helping you plan your journey across this beautiful island.
+                Plan your train journey across Sri Lanka with the latest 2026 railway timetable. Search departure times, routes, and intermediate stops for all Sri Lanka Railways lines — including the scenic Colombo to Kandy hill country route, the Coastal Line to Galle and Matara, and the Northern Line to Jaffna. Select your route, pick a day type (weekday, Saturday, or Sunday), and find your train in seconds.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Whether you&apos;re searching for the <strong>train schedule from Colombo Fort to Kandy</strong>, looking up the{' '}
-                <strong>railway time table today</strong>, or planning a trip on the famous{' '}
-                <strong>Colombo to Ella train route</strong>, our search tool makes it easy to find accurate departure times,
-                arrival times, and all intermediate stops.
+                Timetable data is sourced from official Sri Lanka Railways schedules. <em className="text-sm">Last verified: June 2026.</em>
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="bg-white rounded-2xl border border-gray-200/50 p-6 shadow-sm">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">
-                  🚂 Major Railway Lines
+                  Major Railway Lines
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
                   <li className="flex items-start gap-2">
@@ -251,7 +252,7 @@ export default function SEOContentSection() {
 
               <div className="bg-white rounded-2xl border border-gray-200/50 p-6 shadow-sm">
                 <h3 className="text-lg font-bold text-gray-900 mb-3">
-                  🎫 Train Classes Available
+                  Train Classes Available
                 </h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
                   <li className="flex items-start gap-2">
@@ -287,7 +288,7 @@ export default function SEOContentSection() {
 
             <div className="bg-white rounded-2xl border border-gray-200/50 p-6 sm:p-8 shadow-sm mb-8">
               <h3 className="text-lg font-bold text-gray-900 mb-3">
-                🏔️ Famous Express Trains
+                Famous Express Trains
               </h3>
               <p className="text-gray-600 text-sm leading-relaxed mb-4">
                 Sri Lanka Railways operates several famous named express trains that connect major cities across the island:
@@ -327,23 +328,24 @@ export default function SEOContentSection() {
       <section className="py-12 bg-gray-50/50" id="stations" aria-label="Sri Lanka Railway Stations">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-            Sri Lanka Railway Stations — Search Train Timetable by Station
+            Sri Lanka Railway Stations
           </h2>
           <p className="text-gray-600 text-center max-w-2xl mx-auto mb-8">
             Search train schedules for all major railway stations across Sri Lanka. Select any station to find daily train times, departure schedules, and the complete railway time table.
           </p>
           <div className="flex flex-wrap justify-center gap-2">
-            {sriLankaStations.map((station, index) => (
-              <span
-                key={index}
-                onClick={() => {
-                  document.getElementById('search')?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-                }}
-                className="px-3 py-1.5 bg-white rounded-full border border-gray-200 text-sm text-gray-600 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 cursor-pointer transition-all duration-200 shadow-sm"
-              >
-                {station}
-              </span>
-            ))}
+            {sriLankaStations.map((station, index) => {
+              const stationSlug = station.toLowerCase().replace(/\s+/g, '-')
+              return (
+                <a
+                  key={index}
+                  href={`/station/${stationSlug}`}
+                  className="px-3 py-1.5 bg-white rounded-full border border-gray-200 text-sm text-gray-600 hover:bg-blue-50 hover:border-blue-300 hover:text-blue-700 cursor-pointer transition-all duration-200 shadow-sm"
+                >
+                  {station}
+                </a>
+              )
+            })}
           </div>
         </div>
       </section>
@@ -358,18 +360,18 @@ export default function SEOContentSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
             {/* Today / Tomorrow */}
             <div className="bg-gradient-to-br from-blue-50 to-white rounded-2xl border border-blue-100 p-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">📅 Today &amp; Tomorrow Train Time Table</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Today &amp; Tomorrow Train Time Table</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
-                Find the <strong>today train time table</strong> for Sri Lanka Railways. Check <strong>today&apos;s train schedule</strong> from Colombo Fort to all destinations.
-                Planning ahead? Search the <strong>tomorrow train time table</strong> and <strong>Sri Lanka railway time table tomorrow morning</strong> trains.
-                Our daily train schedule covers weekday, <strong>Saturday railway time table</strong>, and <strong>Sunday train timetable</strong> services.
-                Filter by <strong>train schedule for today</strong> or <strong>train schedule for tomorrow</strong> with specific departure times.
+                Find the <a href="/schedule/today" className="font-bold text-blue-600 hover:underline">today train time table</a> for Sri Lanka Railways. Check <a href="/schedule/today" className="font-bold text-blue-600 hover:underline">today&apos;s train schedule</a> from Colombo Fort to all destinations.
+                Planning ahead? Search the <a href="/schedule/tomorrow" className="font-bold text-blue-600 hover:underline">tomorrow train time table</a> and <a href="/schedule/tomorrow" className="font-bold text-blue-600 hover:underline">Sri Lanka railway time table tomorrow morning</a> trains.
+                Our daily train schedule covers <a href="/schedule/weekday" className="font-bold text-blue-600 hover:underline">weekday</a>, <a href="/schedule/saturday" className="font-bold text-blue-600 hover:underline">Saturday railway time table</a>, and <a href="/schedule/sunday" className="font-bold text-blue-600 hover:underline">Sunday train timetable</a> services.
+                Filter by <a href="/schedule/today" className="font-bold text-blue-600 hover:underline">train schedule for today</a> or <a href="/schedule/tomorrow" className="font-bold text-blue-600 hover:underline">train schedule for tomorrow</a> with specific departure times.
               </p>
             </div>
 
             {/* Official Resources */}
             <div className="bg-gradient-to-br from-green-50 to-white rounded-2xl border border-green-100 p-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">🌐 Official Railway Resources</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Official Railway Resources</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 The <strong>www railway gov lk time table</strong> is available at the official Sri Lanka Railways website.
                 Check <strong>railway.gov.lk schedule</strong> for official notices.
@@ -382,7 +384,7 @@ export default function SEOContentSection() {
 
             {/* Northern Routes */}
             <div className="bg-gradient-to-br from-amber-50 to-white rounded-2xl border border-amber-100 p-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">🚂 Northern Line Train Schedule</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Northern Line Train Schedule</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Search the <strong>Fort to Anuradhapura train time table</strong> on the Northern line.
                 Find <strong>Jaffna train time table</strong> and <strong>train from Colombo to Jaffna</strong> departures.
@@ -394,7 +396,7 @@ export default function SEOContentSection() {
 
             {/* Coastal Routes */}
             <div className="bg-gradient-to-br from-cyan-50 to-white rounded-2xl border border-cyan-100 p-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">🌊 Coastal Line Train Timetable</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Coastal Line Train Timetable</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 Find the <strong>Kalutara to Galle train time table</strong> on the scenic Coastal line.
                 Check <strong>Moratuwa to Maradana train time table</strong> for commuter services.
@@ -406,7 +408,7 @@ export default function SEOContentSection() {
 
             {/* Hill Country */}
             <div className="bg-gradient-to-br from-purple-50 to-white rounded-2xl border border-purple-100 p-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">🏔️ Hill Country &amp; Main Line</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">Hill Country &amp; Main Line</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 The world-famous <strong>Colombo to Badulla train</strong> passes through Kandy, Nanu Oya, Ella, and Haputale.
                 Search <strong>train schedule Mirigama</strong> on the Main Line.
@@ -418,7 +420,7 @@ export default function SEOContentSection() {
 
             {/* Sinhala / How-to */}
             <div className="bg-gradient-to-br from-rose-50 to-white rounded-2xl border border-rose-100 p-6">
-              <h3 className="text-lg font-bold text-gray-900 mb-3">🔍 How to Search Train Times</h3>
+              <h3 className="text-lg font-bold text-gray-900 mb-3">How to Search Train Times</h3>
               <p className="text-sm text-gray-600 leading-relaxed">
                 <strong>How to find train time table</strong>: Select your route, day type, and departure hour above.
                 <strong>How to see train time table</strong>: Click &ldquo;Search Trains&rdquo; to view results with stops.

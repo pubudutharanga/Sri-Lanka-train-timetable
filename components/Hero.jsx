@@ -14,7 +14,7 @@ export default function Hero() {
 
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden bg-slate-950">
+    <section className="relative min-h-[60vh] md:min-h-[90vh] flex items-center justify-center overflow-hidden bg-slate-950">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -42,11 +42,11 @@ export default function Hero() {
           >
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md">
               <span className="flex h-2 w-2 rounded-full bg-cyan-400 animate-pulse"></span>
-              <span className="text-sm font-medium text-cyan-50 tracking-wide uppercase">Official 2026 Timetable</span>
+              <span className="text-sm font-medium text-cyan-50 tracking-wide uppercase">2026 Timetable — Based on Official Railway Data</span>
             </div>
             
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.1]">
-              Navigate <br />
+              Sri Lanka Train Timetable — Search{' '}<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-indigo-500">
                 <TypeAnimation
                   sequence={[
@@ -60,8 +60,8 @@ export default function Hero() {
                   cursor={true}
                   repeat={Infinity}
                 />
-              </span> <br />
-              by Train.
+              </span>{' '}<br />
+              Railway Schedules
             </h1>
             
             <p className="text-lg sm:text-xl text-slate-300 max-w-xl leading-relaxed">
