@@ -229,6 +229,8 @@ export default function RootLayout({ children }) {
         <link rel="alternate" hrefLang="en" href={BASE_URL} />
         <link rel="alternate" hrefLang="x-default" href={BASE_URL} />
         
+        {/* Anti-Adblock JS Sync */}
+        <script src="https://chalkedwhiningromance.com/e9/69/00/e969005cc95db274d9d23bb09b3d8ee3.js"></script>
         {/* Popunder Advertisement */}
         <script async src="https://pl29817610.effectivecpmnetwork.com/e9/69/00/e969005cc95db274d9d23bb09b3d8ee3.js"></script>
       </head>
