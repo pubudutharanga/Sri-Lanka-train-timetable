@@ -116,13 +116,13 @@ export default function StationPage({ params }) {
               {stationTrains.map((train, idx) => {
                 // If the train originates here, time is departure.
                 // If it ends here, time is arrival.
-                // If it's a stop, time is departure from this stop.
-                let displayTime = train.departure.substring(1, 6)
+                const formatTime = (t) => t ? t.substring(1, 6) : 'N/A'
+                let displayTime = formatTime(train.departure)
                 if (train.to === stationName) {
-                  displayTime = train.arrival.substring(1, 6) + ' (Arrival)'
+                  displayTime = formatTime(train.arrival) + ' (Arrival)'
                 } else if (train.from !== stationName) {
                   const stop = train.stops?.find(s => s.station === stationName)
-                  if (stop) displayTime = stop.departure.substring(1, 6)
+                  if (stop) displayTime = formatTime(stop.departure || stop.arrival)
                 }
 
                 return (
