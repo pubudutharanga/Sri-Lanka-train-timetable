@@ -40,34 +40,14 @@ const faqItems = [
   },
 ]
 
-function FAQJsonLd() {
-  const faqData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: faqItems.map(item => ({
-      '@type': 'Question',
-      name: item.question,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: item.answer,
-      },
-    })),
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
-    />
-  )
-}
+// FAQPage JSON-LD is server-rendered in layout.js for guaranteed Googlebot visibility
 
 export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState(null)
 
   return (
     <section className="py-16 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8" id="faq">
-      <FAQJsonLd />
+      {/* FAQPage JSON-LD is server-rendered in layout.js */}
       {/* Section Header */}
       <div className="text-center mb-12">
         <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-50 rounded-full border border-amber-200/50 mb-4">

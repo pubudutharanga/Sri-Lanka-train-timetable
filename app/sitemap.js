@@ -3,12 +3,13 @@ import path from 'path'
 
 export default async function sitemap() {
   const baseUrl = 'https://sri-lanka-train-timetable.vercel.app'
+  const now = new Date().toISOString() // Dynamic freshness signal
   
   // Base URLs
   const routes = [
     {
       url: baseUrl,
-      lastModified: '2026-06-20',
+      lastModified: now,
       changeFrequency: 'daily',
       priority: 1.0,
     },
@@ -29,7 +30,7 @@ export default async function sitemap() {
       const slug = `${from.toLowerCase().replace(/\s+/g, '-')}-to-${to.toLowerCase().replace(/\s+/g, '-')}`
       return {
         url: `${baseUrl}/route/${slug}`,
-        lastModified: '2026-06-20',
+        lastModified: now,
         changeFrequency: 'weekly',
         priority: 0.8,
       }
@@ -51,7 +52,7 @@ export default async function sitemap() {
       const slug = station.toLowerCase().replace(/\s+/g, '-')
       return {
         url: `${baseUrl}/station/${slug}`,
-        lastModified: '2026-06-20',
+        lastModified: now,
         changeFrequency: 'weekly',
         priority: 0.7,
       }
@@ -63,7 +64,7 @@ export default async function sitemap() {
     const validDayTypes = ['today', 'tomorrow', 'saturday', 'sunday', 'weekday', 'weekend']
     const schedulePages = validDayTypes.map(dayType => ({
       url: `${baseUrl}/schedule/${dayType}`,
-      lastModified: '2026-06-20',
+      lastModified: now,
       changeFrequency: 'daily',
       priority: 0.9,
     }))
