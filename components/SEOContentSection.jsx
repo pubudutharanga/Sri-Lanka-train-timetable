@@ -101,12 +101,13 @@ const popularRoutes = [
 const sriLankaStations = [
   'Colombo Fort', 'Maradana', 'Kandy', 'Galle', 'Matara', 'Badulla',
   'Jaffna', 'Anuradhapura', 'Batticaloa', 'Trincomalee', 'Vavuniya',
-  'Negombo', 'Panadura', 'Kalutara', 'Hikkaduwa', 'Ella', 'Nanu Oya',
+  'Negombo', 'Panadura', 'Kalutara South', 'Hikkaduwa', 'Ella', 'Nanu Oya',
   'Haputale', 'Hatton', 'Kurunegala', 'Polonnaruwa', 'Chilaw',
   'Mount Lavinia', 'Moratuwa', 'Bentota', 'Ambalangoda', 'Beliatta',
-  'Peradeniya', 'Polgahawela', 'Kilinochchi', 'Kankesanthurai',
-  'Talaimannar', 'Rabukkana', 'Mirigama', 'Pallai', 'Madhu Road',
-  'Galoya Junction', 'Habarana'
+  'Peradeniya Junction', 'Polgahawela', 'Kilinochchi', 'Kankesanthurai',
+  'Talaimannar', 'Rambukkana', 'Mirigama', 'Palai', 'Madhu Road',
+  'Gal Oya Junction', 'Habarana', 'Maho Junction', 'Medawachchiya Junction',
+  'Diyatalawa', 'Bandarawela', 'Weligama', 'Koggala'
 ]
 
 export default function SEOContentSection() {
@@ -390,7 +391,7 @@ export default function SEOContentSection() {
                 Find <strong>Jaffna train time table</strong> and <strong>train from Colombo to Jaffna</strong> departures.
                 Check the <strong>Sri Lanka train schedule Vavuniya Colombo 2026</strong>.
                 The <strong>Talaimannar to Colombo train time table</strong> connects the northernmost stations.
-                View <strong>Rabukkana railway station time table 2026</strong> on the Main Line to Kandy.
+                View <strong>Rambukkana railway station time table 2026</strong> on the Main Line to Kandy.
               </p>
             </div>
 
