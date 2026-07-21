@@ -2,6 +2,7 @@ import '../styles/globals.css'
 import { Inter } from 'next/font/google'
 import PremiumFooter from './PremiumFooter'
 import GoogleAnalytics from '../components/GoogleAnalytics'
+import AdLoader from '../components/AdLoader'
 import Providers from './providers'
 import { WebVitals } from '../components/WebVitals'
 
@@ -318,19 +319,10 @@ function BreadcrumbJsonLd() {
 //  - FAQPage JSON-LD server-rendered in <head>
 // ══════════════════════════════════════════════════════════════════════
 
-import Script from 'next/script'
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.className}>
       <head>
-        {/* Anti-Adblock & Popunder Script - MUST be loaded before interactive to attach global DOM listeners */}
-        <Script 
-          src="https://chalkedwhiningromance.com/e9/69/00/e969005cc95db274d9d23bb09b3d8ee3.js"
-          strategy="beforeInteractive"
-          data-cfasync="false"
-        />
-
         {/* JSON-LD Structured Data — server-rendered for Googlebot */}
         <WebSiteJsonLd />
         <OrganizationJsonLd />
@@ -344,6 +336,8 @@ export default function RootLayout({ children }) {
         {/* Hreflang for geo-targeting */}
         <link rel="alternate" hrefLang="en" href={BASE_URL} />
         <link rel="alternate" hrefLang="x-default" href={BASE_URL} />
+
+        {/* NO ad scripts in <head> — they are loaded via AdLoader after 5s delay */}
       </head>
       <body className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
         <WebVitals />
@@ -352,6 +346,8 @@ export default function RootLayout({ children }) {
           {children}
         </Providers>
         <PremiumFooter />
+        {/* Ad scripts deferred — loads 5 seconds after page load */}
+        <AdLoader />
       </body>
     </html>
   )
