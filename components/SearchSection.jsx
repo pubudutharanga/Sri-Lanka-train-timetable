@@ -1,7 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import { List } from 'react-window'
+
 import TrainCard from './TrainCard'
 import * as Select from '@radix-ui/react-select'
 import { 
@@ -602,30 +602,13 @@ export default function SearchSection() {
                 Sorted by departure time
               </div>
             </div>
-            {results.length > 10 ? (
-              <div style={{ height: '600px', width: '100%' }}>
-                <List
-                  height={600}
-                  itemCount={results.length}
-                  itemSize={260}
-                  width="100%"
-                >
-                  {({ index, style }) => (
-                    <div style={{ ...style, paddingBottom: '20px' }}>
-                      <div className="h-full transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
-                        <TrainCard train={results[index]} />
-                      </div>
-                    </div>
-                  )}
-                </List>
-              </div>
-            ) : (
-              results.map(train => (
+            <div className="space-y-4">
+              {results.map(train => (
                 <div key={train.id} className="transform transition-all duration-300 hover:-translate-y-0.5 hover:shadow-lg">
                   <TrainCard train={train} />
                 </div>
-              ))
-            )}
+              ))}
+            </div>
           </div>
         )}
       </div>
