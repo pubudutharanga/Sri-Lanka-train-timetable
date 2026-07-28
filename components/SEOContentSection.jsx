@@ -447,6 +447,27 @@ const sriLankaStations = [
   'Trincomalee'
 ]
 
+function getValidStations() {
+  try {
+    const fs = require('fs')
+    const path = require('path')
+    const filePath = path.join(process.cwd(), 'public', 'data', 'trains.json')
+    const data = fs.readFileSync(filePath, 'utf8')
+    const trains = JSON.parse(data)
+    const stationNames = new Set()
+    trains.forEach(t => {
+      stationNames.add(t.from)
+      stationNames.add(t.to)
+      if (t.stops) {
+        t.stops.forEach(s => stationNames.add(s.station))
+      }
+    })
+    return Array.from(stationNames).sort()
+  } catch(e) {
+    return ['Colombo Fort', 'Kandy', 'Badulla', 'Galle', 'Jaffna', 'Matara']
+  }
+}
+
 export default function SEOContentSection() {
   const scrollToSearch = () => {
     document.getElementById('search')?.scrollIntoView({
@@ -672,7 +693,7 @@ export default function SEOContentSection() {
             Search train schedules for all major railway stations across Sri Lanka. Select any station to find daily train times, departure schedules, and the complete railway time table.
           </p>
           <div className="flex flex-wrap justify-center gap-2">
-            {sriLankaStations.map((station, index) => {
+            {getValidStations().map((station, index) => {
               const stationSlug = station.toLowerCase().replace(/\s+/g, '-')
               return (
                 <a
