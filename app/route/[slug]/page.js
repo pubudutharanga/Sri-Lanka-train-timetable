@@ -12,34 +12,71 @@ function getTrains() {
   return JSON.parse(data)
 }
 
-export function generateStaticParams() {
+function getRouteData() {
   const trains = getTrains()
-  const routeSet = new Set()
-  
+  const routeMap = new Map() // maps slug -> { from, to, trains: [] }
+
   trains.forEach(t => {
-    routeSet.add(`${t.from}:${t.to}`)
+    const allStops = [{ station: t.from, time: t.departure }]
+    if (t.stops) {
+      t.stops.forEach(s => allStops.push({ station: s.station, time: s.departure || s.arrival }))
+    }
+    allStops.push({ station: t.to, time: t.arrival })
+    
+    // Deduplicate consecutive identical stations
+    const uniqueStops = allStops.filter((item, pos, arr) => pos === 0 || item.station !== arr[pos-1].station)
+
+    for (let i = 0; i < uniqueStops.length; i++) {
+      for (let j = i + 1; j < uniqueStops.length; j++) {
+        const fromStation = uniqueStops[i].station
+        const toStation = uniqueStops[j].station
+        
+        const slug = `${fromStation.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${toStation.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
+        
+        if (!routeMap.has(slug)) {
+          routeMap.set(slug, { from: fromStation, to: toStation, trains: [] })
+        }
+        
+        const depTime = uniqueStops[i].time || "T00:00:00"
+        const arrTime = uniqueStops[j].time || "T00:00:00"
+        
+        // Calculate intermediate duration
+        const depMins = parseInt(depTime.substring(1, 3), 10) * 60 + parseInt(depTime.substring(4, 6), 10)
+        const arrMins = parseInt(arrTime.substring(1, 3), 10) * 60 + parseInt(arrTime.substring(4, 6), 10)
+        let durationMins = arrMins - depMins
+        if (durationMins < 0) durationMins += 24 * 60
+        
+        // Push train with custom from/to times and duration based on stops
+        routeMap.get(slug).trains.push({
+          ...t,
+          from: fromStation,
+          to: toStation,
+          departure: depTime,
+          arrival: arrTime,
+          duration_minutes: durationMins,
+          originalFrom: t.from,
+          originalTo: t.to
+        })
+      }
+    }
   })
-  
-  return Array.from(routeSet).map(route => {
-    const [from, to] = route.split(':')
-    const slug = `${from.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${to.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
-    return { slug }
-  })
+
+  return routeMap
+}
+
+export function generateStaticParams() {
+  const routeMap = getRouteData()
+  return Array.from(routeMap.keys()).map(slug => ({ slug }))
 }
 
 export function generateMetadata({ params }) {
-  const trains = getTrains()
+  const routeMap = getRouteData()
   const { slug } = params
   
-  const matchingTrains = trains.filter(t => {
-    const tSlug = `${t.from.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${t.to.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
-    return tSlug === slug
-  })
+  const routeInfo = routeMap.get(slug)
+  if (!routeInfo) return {}
   
-  if (matchingTrains.length === 0) return {}
-  
-  const from = matchingTrains[0].from
-  const to = matchingTrains[0].to
+  const { from, to } = routeInfo
   const routeName = `${from} to ${to}`
   
   return {
@@ -66,17 +103,15 @@ export function generateMetadata({ params }) {
 }
 
 export default function RoutePage({ params }) {
-  const trains = getTrains()
+  const routeMap = getRouteData()
   const { slug } = params
   
-  const matchingTrains = trains.filter(t => {
-    const tSlug = `${t.from.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${t.to.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
-    return tSlug === slug
-  })
-  
-  if (matchingTrains.length === 0) {
+  const routeInfo = routeMap.get(slug)
+  if (!routeInfo) {
     notFound()
   }
+
+  const { from, to, trains: matchingTrains } = routeInfo
 
   // Sort by departure time
   matchingTrains.sort((a, b) => {
@@ -85,8 +120,6 @@ export default function RoutePage({ params }) {
     return timeA - timeB
   })
   
-  const from = matchingTrains[0].from
-  const to = matchingTrains[0].to
   const distance = matchingTrains[0].distance_km
   
   const minDurTrain = matchingTrains.reduce((prev, curr) => prev.duration_minutes < curr.duration_minutes ? prev : curr)
