@@ -1,8 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react'
 import { useQuery } from '@tanstack/react-query'
-import * as reactWindowModule from 'react-window'
-const List = reactWindowModule.FixedSizeList || reactWindowModule.default?.FixedSizeList
+import { List } from 'react-window'
 import TrainCard from './TrainCard'
 import * as Select from '@radix-ui/react-select'
 import { 
