@@ -32,8 +32,8 @@ export const metadata = {
   // "train schedule" (11,499 imp) + "sri lanka" + "railway time table" (1,814)
   // + "train timetable" (134) + "train time table" (2,317)
   title: {
-    default: 'Train Schedule Sri Lanka 2026 — Railway Time Table & Train Timetable Today',
-    template: '%s | Train Schedule Sri Lanka 2026',
+    default: '🚂 Train Schedule Sri Lanka 2026 — Railway Time Table & Train Timetable Today',
+    template: '%s | ⚡ Train Schedule Sri Lanka 2026',
   },
 
   // ── Description — CTR-optimized (target 6%+ from current 1.9%) ─────
@@ -212,106 +212,6 @@ function OrganizationJsonLd() {
   )
 }
 
-// ── FAQPage JSON-LD — SERVER-RENDERED so Googlebot always sees it ────
-function FAQPageJsonLd() {
-  const faqData = {
-    '@context': 'https://schema.org',
-    '@type': 'FAQPage',
-    mainEntity: [
-      {
-        '@type': 'Question',
-        name: 'How do I find the train schedule in Sri Lanka?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'You can search for Sri Lanka train schedules on our website by selecting your departure and arrival stations. We provide updated timetables for all Sri Lanka Railways routes including Colombo Fort to Kandy, Galle, Badulla, Jaffna, Anuradhapura, Batticaloa, and more. Simply choose your route, select the day type, and filter by departure time.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What is the Sri Lanka railway time table for today?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: "Our website shows the current Sri Lanka railway timetable updated daily. Select your route and filter by day type (weekday, Saturday, Sunday) to see today's train schedule with departure times, arrival times, duration, distance, available classes, and all intermediate stops.",
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'Where can I find the railway time table for 2026?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Our website provides the latest 2026 Sri Lanka railway timetable. The railway new time table 2026 schedules are regularly updated to reflect the most current train times, routes, and operating days as published by Sri Lanka Railways.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'How can I check the Colombo Fort train time table?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Select Colombo Fort as your departure station in the route selector. You can find trains from Colombo Fort to Kandy (scenic hill country line), Badulla (via Nanu Oya and Ella), Galle and Matara (coastal line), Jaffna and Kankesanthurai (northern line), Batticaloa (eastern line), Anuradhapura, and Negombo.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What trains run on Saturday and Sunday in Sri Lanka?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Many Sri Lanka Railways trains operate on weekends. Use the Day Type filter to see Saturday railway time table, Sunday train timetable, or weekend-only schedules. Express trains like Podi Menike and Udarata Menike run daily including Saturday and Sunday.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'How do I download the Sri Lanka railway time table PDF?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Use your browser print function (Ctrl+P) to save train schedule search results as PDF. For the official Sri Lanka railway time table today PDF download, visit the official Sri Lanka Railways website at railway.gov.lk. Our online search is faster and always up-to-date.',
-        },
-      },
-      {
-        '@type': 'Question',
-        name: 'What are the most popular train routes in Sri Lanka?',
-        acceptedAnswer: {
-          '@type': 'Answer',
-          text: 'Popular train routes include Colombo Fort to Kandy (~3hrs), Colombo to Galle/Matara (coastal, ~2-3hrs), Colombo to Badulla via Ella (~9hrs), Colombo to Jaffna (~7hrs), Fort to Anuradhapura, Kalutara to Galle, Moratuwa to Maradana, and Colombo to Batticaloa (~8hrs).',
-        },
-      },
-    ],
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
-    />
-  )
-}
-
-function BreadcrumbJsonLd() {
-  const breadcrumbData = {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      {
-        '@type': 'ListItem',
-        position: 1,
-        name: 'Home',
-        item: BASE_URL,
-      },
-      {
-        '@type': 'ListItem',
-        position: 2,
-        name: 'Train Schedule Search',
-        item: `${BASE_URL}/#search`,
-      },
-    ],
-  }
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}
-    />
-  )
-}
 
 // ══════════════════════════════════════════════════════════════════════
 //  ROOT LAYOUT
@@ -326,8 +226,6 @@ export default function RootLayout({ children }) {
         {/* JSON-LD Structured Data — server-rendered for Googlebot */}
         <WebSiteJsonLd />
         <OrganizationJsonLd />
-        <FAQPageJsonLd />
-        <BreadcrumbJsonLd />
 
         {/* Preconnect for performance */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />

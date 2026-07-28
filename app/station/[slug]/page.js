@@ -4,6 +4,24 @@ import { notFound } from 'next/navigation'
 import Breadcrumbs from '../../../components/Breadcrumbs'
 import TrainCard from '../../../components/TrainCard'
 
+const stationTranslations = {
+  'Colombo Fort': { si: 'කොළඹ කොටුව', ta: 'கொழும்பு கோட்டை' },
+  'Kandy': { si: 'මහනුවර', ta: 'கண்டி' },
+  'Galle': { si: 'ගාල්ල', ta: 'காலி' },
+  'Matara': { si: 'මාතර', ta: 'மாத்தறை' },
+  'Jaffna': { si: 'යාපනය', ta: 'யாழ்ப்பாணம்' },
+  'Badulla': { si: 'බදුල්ල', ta: 'பதுளை' },
+  'Anuradhapura': { si: 'අනුරාධපුරය', ta: 'அனுராதபுரம்' },
+  'Ella': { si: 'ඇල්ල', ta: 'எல்லா' },
+  'Nanu Oya': { si: 'නානුඔය', ta: 'நானு ஓயா' },
+  'Trincomalee': { si: 'ත්‍රිකුණාමලය', ta: 'திருகோணமலை' },
+  'Batticaloa': { si: 'මඩකලපුව', ta: 'மட்டக்களப்பு' },
+  'Hikkaduwa': { si: 'හික්කඩුව', ta: 'ஹிக்கடுவ' },
+  'Negombo': { si: 'මීගමුව', ta: 'நீர்கொழும்பு' },
+  'Kurunegala': { si: 'කුරුණෑගල', ta: 'குருநாகல்' },
+  'Vavuniya': { si: 'වවුනියාව', ta: 'வவுனியா' },
+}
+
 export const dynamicParams = false
 
 function getTrains() {
@@ -25,7 +43,7 @@ function getAllStations(trains) {
 }
 
 function stationToSlug(station) {
-  return station.toLowerCase().replace(/\s+/g, '-')
+  return station.toLowerCase().replace(/[^a-z0-9]+/g, '-')
 }
 
 export function generateStaticParams() {
@@ -51,6 +69,20 @@ export function generateMetadata({ params }) {
     description: `Find all train departures, arrivals, and schedules for ${stationName} railway station. View the complete 2026 timetable for trains stopping at ${stationName}.`,
     alternates: {
       canonical: `https://sri-lanka-train-timetable.vercel.app/station/${slug}`
+    },
+    openGraph: {
+      type: 'website',
+      title: `${stationName} Railway Station | Train Times & Departures 2026`,
+      description: `Find all train departures, arrivals, and schedules for ${stationName} railway station. View the complete 2026 timetable for trains stopping at ${stationName}.`,
+      url: `https://sri-lanka-train-timetable.vercel.app/station/${slug}`,
+      siteName: 'Sri Lanka Train Timetable',
+      images: [{ url: 'https://sri-lanka-train-timetable.vercel.app/images/hero2.jpg', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${stationName} Railway Station | Train Times & Departures 2026`,
+      description: `Find all train departures, arrivals, and schedules for ${stationName} railway station. View the complete 2026 timetable for trains stopping at ${stationName}.`,
+      images: ['https://sri-lanka-train-timetable.vercel.app/images/hero2.jpg'],
     }
   }
 }
@@ -80,6 +112,38 @@ export default function StationPage({ params }) {
     return timeA - timeB
   })
   
+  const stationJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TrainStation",
+    "name": stationName,
+    "url": `https://sri-lanka-train-timetable.vercel.app/station/${slug}`
+  }
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sri-lanka-train-timetable.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Stations",
+        "item": "https://sri-lanka-train-timetable.vercel.app/#stations"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": stationName,
+        "item": `https://sri-lanka-train-timetable.vercel.app/station/${slug}`
+      }
+    ]
+  }
+
   const breadcrumbItems = [
     { label: 'Stations', href: '/#stations' },
     { label: stationName, href: `/station/${slug}` }
@@ -87,6 +151,8 @@ export default function StationPage({ params }) {
 
   return (
     <main className="min-h-screen bg-gray-50/50 pt-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(stationJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Breadcrumbs items={breadcrumbItems} />
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -144,6 +210,12 @@ export default function StationPage({ params }) {
             Timetable last updated: June 2026 — Sourced from Sri Lanka Railways.
           </div>
         </div>
+
+        {stationTranslations[stationName] && (
+          <div className="mb-10 text-center text-sm text-gray-500">
+            Also known as: <span className="font-medium text-gray-700">{stationTranslations[stationName].si}</span> (Sinhala) / <span className="font-medium text-gray-700">{stationTranslations[stationName].ta}</span> (Tamil)
+          </div>
+        )}
 
         <div className="space-y-4">
           <h2 className="text-xl font-bold text-gray-900 mb-4">Train Details</h2>

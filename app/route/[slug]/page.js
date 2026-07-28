@@ -22,7 +22,7 @@ export function generateStaticParams() {
   
   return Array.from(routeSet).map(route => {
     const [from, to] = route.split(':')
-    const slug = `${from.toLowerCase().replace(/\s+/g, '-')}-to-${to.toLowerCase().replace(/\s+/g, '-')}`
+    const slug = `${from.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${to.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
     return { slug }
   })
 }
@@ -32,7 +32,7 @@ export function generateMetadata({ params }) {
   const { slug } = params
   
   const matchingTrains = trains.filter(t => {
-    const tSlug = `${t.from.toLowerCase().replace(/\s+/g, '-')}-to-${t.to.toLowerCase().replace(/\s+/g, '-')}`
+    const tSlug = `${t.from.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${t.to.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
     return tSlug === slug
   })
   
@@ -47,6 +47,20 @@ export function generateMetadata({ params }) {
     description: `Find the 2026 train schedule from ${from} to ${to}. Check departure times, arrival times, durations, and classes for all Sri Lanka Railways trains on this route.`,
     alternates: {
       canonical: `https://sri-lanka-train-timetable.vercel.app/route/${slug}`
+    },
+    openGraph: {
+      type: 'website',
+      title: `${routeName} Train Schedule 2026 | Timetable & Ticket Prices`,
+      description: `Find the 2026 train schedule from ${from} to ${to}. Check departure times, arrival times, durations, and classes for all Sri Lanka Railways trains on this route.`,
+      url: `https://sri-lanka-train-timetable.vercel.app/route/${slug}`,
+      siteName: 'Sri Lanka Train Timetable',
+      images: [{ url: 'https://sri-lanka-train-timetable.vercel.app/images/hero2.jpg', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${routeName} Train Schedule 2026`,
+      description: `Find the 2026 train schedule from ${from} to ${to}. Check departure times, arrival times, durations, and classes for all Sri Lanka Railways trains on this route.`,
+      images: ['https://sri-lanka-train-timetable.vercel.app/images/hero2.jpg'],
     }
   }
 }
@@ -56,7 +70,7 @@ export default function RoutePage({ params }) {
   const { slug } = params
   
   const matchingTrains = trains.filter(t => {
-    const tSlug = `${t.from.toLowerCase().replace(/\s+/g, '-')}-to-${t.to.toLowerCase().replace(/\s+/g, '-')}`
+    const tSlug = `${t.from.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${t.to.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
     return tSlug === slug
   })
   
@@ -75,13 +89,72 @@ export default function RoutePage({ params }) {
   const to = matchingTrains[0].to
   const distance = matchingTrains[0].distance_km
   
+  const minDurTrain = matchingTrains.reduce((prev, curr) => prev.duration_minutes < curr.duration_minutes ? prev : curr)
+  const maxDurTrain = matchingTrains.reduce((prev, curr) => prev.duration_minutes > curr.duration_minutes ? prev : curr)
+  const formatDuration = (mins) => `${Math.floor(mins/60)}h ${mins%60}m`
+  const minDuration = formatDuration(minDurTrain.duration_minutes)
+  const maxDuration = formatDuration(maxDurTrain.duration_minutes)
+  
+  const allClasses = new Set()
+  matchingTrains.forEach(t => t.classes?.forEach(c => allClasses.add(c)))
+  const classesAvailable = Array.from(allClasses).join(', ') || 'various classes'
+
+  const firstTrain = matchingTrains[0]
+  const tripJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "TrainTrip",
+    "trainNumber": firstTrain.number,
+    "trainName": firstTrain.name,
+    "departureStation": {
+      "@type": "TrainStation",
+      "name": firstTrain.from
+    },
+    "arrivalStation": {
+      "@type": "TrainStation",
+      "name": firstTrain.to
+    },
+    "departureTime": firstTrain.departure,
+    "arrivalTime": firstTrain.arrival,
+    "provider": {
+      "@type": "Organization",
+      "name": "Sri Lanka Railways"
+    }
+  }
+
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sri-lanka-train-timetable.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Routes",
+        "item": "https://sri-lanka-train-timetable.vercel.app/route"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": `${from} to ${to}`,
+        "item": `https://sri-lanka-train-timetable.vercel.app/route/${slug}`
+      }
+    ]
+  }
+
   const breadcrumbItems = [
-    { label: 'Routes', href: '/route' }, // Optional: link to a general routes list
+    { label: 'Routes', href: '/#popular-routes' }, // Optional: link to a general routes list
     { label: `${from} to ${to}`, href: `/route/${slug}` }
   ]
 
   return (
     <main className="min-h-screen bg-gray-50/50 pt-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(tripJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Breadcrumbs items={breadcrumbItems} />
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
@@ -89,9 +162,8 @@ export default function RoutePage({ params }) {
           <h1 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
             {from} to {to} Train Schedule
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Plan your train journey with the latest 2026 Sri Lanka Railways timetable. 
-            {distance ? ` The distance between ${from} and ${to} is approximately ${distance} km.` : ''}
+          <p className="text-base text-gray-700 max-w-2xl mx-auto mt-4 leading-relaxed">
+            The train from <strong>{from}</strong> to <strong>{to}</strong> takes approximately <strong>{minDuration === maxDuration ? minDuration : `${minDuration}–${maxDuration}`}</strong>. There are <strong>{matchingTrains.length} daily trains</strong> on this route. {distance ? `The distance is ${distance} km.` : ''} Tickets are available in {classesAvailable}.
           </p>
         </header>
 

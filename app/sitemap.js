@@ -3,7 +3,7 @@ import path from 'path'
 
 export default async function sitemap() {
   const baseUrl = 'https://sri-lanka-train-timetable.vercel.app'
-  const now = new Date().toISOString() // Dynamic freshness signal
+  const now = '2026-07-28' // Deterministic freshness signal
   
   // Base URLs
   const routes = [
@@ -12,6 +12,18 @@ export default async function sitemap() {
       lastModified: now,
       changeFrequency: 'daily',
       priority: 1.0,
+    },
+    {
+      url: `${baseUrl}/route`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/station`,
+      lastModified: now,
+      changeFrequency: 'weekly',
+      priority: 0.9,
     },
   ]
 
@@ -27,7 +39,7 @@ export default async function sitemap() {
     
     const routePages = Array.from(routeSet).map(route => {
       const [from, to] = route.split(':')
-      const slug = `${from.toLowerCase().replace(/\s+/g, '-')}-to-${to.toLowerCase().replace(/\s+/g, '-')}`
+      const slug = `${from.toLowerCase().replace(/[^a-z0-9]+/g, '-')}-to-${to.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`
       return {
         url: `${baseUrl}/route/${slug}`,
         lastModified: now,
@@ -49,7 +61,7 @@ export default async function sitemap() {
     })
     
     const stationPages = Array.from(stationNames).map(station => {
-      const slug = station.toLowerCase().replace(/\s+/g, '-')
+      const slug = station.toLowerCase().replace(/[^a-z0-9]+/g, '-')
       return {
         url: `${baseUrl}/station/${slug}`,
         lastModified: now,

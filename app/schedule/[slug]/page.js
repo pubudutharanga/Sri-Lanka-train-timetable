@@ -39,6 +39,20 @@ export function generateMetadata({ params }) {
     description: `Search the Sri Lanka railway time table for ${formattedSlug}. Find all departures, routes, and schedules operating on ${formattedSlug}.`,
     alternates: {
       canonical: `https://sri-lanka-train-timetable.vercel.app/schedule/${slug}`
+    },
+    openGraph: {
+      type: 'website',
+      title: `${titleMap[slug]} - 2026`,
+      description: `Search the Sri Lanka railway time table for ${formattedSlug}. Find all departures, routes, and schedules operating on ${formattedSlug}.`,
+      url: `https://sri-lanka-train-timetable.vercel.app/schedule/${slug}`,
+      siteName: 'Sri Lanka Train Timetable',
+      images: [{ url: 'https://sri-lanka-train-timetable.vercel.app/images/hero2.jpg', width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${titleMap[slug]} - 2026`,
+      description: `Search the Sri Lanka railway time table for ${formattedSlug}. Find all departures, routes, and schedules operating on ${formattedSlug}.`,
+      images: ['https://sri-lanka-train-timetable.vercel.app/images/hero2.jpg'],
     }
   }
 }
@@ -90,8 +104,63 @@ export default function SchedulePage({ params }) {
 
   const formattedTitle = slug.charAt(0).toUpperCase() + slug.slice(1)
 
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://sri-lanka-train-timetable.vercel.app/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Schedule",
+        "item": "https://sri-lanka-train-timetable.vercel.app/#search"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": formattedTitle,
+        "item": `https://sri-lanka-train-timetable.vercel.app/schedule/${slug}`
+      }
+    ]
+  }
+
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "itemListElement": displayTrains.slice(0, 10).map((train, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "item": {
+        "@type": "TrainTrip",
+        "trainNumber": train.number,
+        "trainName": train.name,
+        "departureStation": {
+          "@type": "TrainStation",
+          "name": train.from
+        },
+        "arrivalStation": {
+          "@type": "TrainStation",
+          "name": train.to
+        },
+        "departureTime": train.departure,
+        "arrivalTime": train.arrival,
+        "provider": {
+          "@type": "Organization",
+          "name": "Sri Lanka Railways"
+        }
+      }
+    }))
+  }
+
   return (
     <main className="min-h-screen bg-gray-50/50 pt-16">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <Breadcrumbs items={breadcrumbItems} />
       
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">

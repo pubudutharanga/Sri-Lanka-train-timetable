@@ -5,6 +5,11 @@ const withPWA = require('next-pwa')({
 });
 
 const nextConfig = {
+  poweredByHeader: false,
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    minimumCacheTTL: 31536000,
+  },
   env: {
     NEXT_PUBLIC_GA_MEASUREMENT_ID: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || 'G-FLEV55JTJJ'
   },
@@ -35,6 +40,10 @@ const nextConfig = {
           {
             key: 'X-DNS-Prefetch-Control',
             value: 'on',
+          },
+          {
+            key: 'Strict-Transport-Security',
+            value: 'max-age=63072000; includeSubDomains; preload',
           },
         ],
       },

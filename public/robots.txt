@@ -4,7 +4,6 @@
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /data/trains.json
 
 # Sitemap
 Sitemap: https://sri-lanka-train-timetable.vercel.app/sitemap.xml
