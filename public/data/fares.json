@@ -1,0 +1,14 @@
+{
+  "fareTable": [
+    { "minKm": 0, "maxKm": 10, "3rdClass": 15, "2ndClass": 30, "1stClass": 80 },
+    { "minKm": 11, "maxKm": 25, "3rdClass": 25, "2ndClass": 50, "1stClass": 130 },
+    { "minKm": 26, "maxKm": 50, "3rdClass": 40, "2ndClass": 80, "1stClass": 200 },
+    { "minKm": 51, "maxKm": 75, "3rdClass": 60, "2ndClass": 110, "1stClass": 280 },
+    { "minKm": 76, "maxKm": 100, "3rdClass": 80, "2ndClass": 150, "1stClass": 350 },
+    { "minKm": 101, "maxKm": 150, "3rdClass": 110, "2ndClass": 200, "1stClass": 480 },
+    { "minKm": 151, "maxKm": 200, "3rdClass": 140, "2ndClass": 260, "1stClass": 600 },
+    { "minKm": 201, "maxKm": 250, "3rdClass": 180, "2ndClass": 330, "1stClass": 750 },
+    { "minKm": 251, "maxKm": 300, "3rdClass": 220, "2ndClass": 400, "1stClass": 900 },
+    { "minKm": 301, "maxKm": 400, "3rdClass": 280, "2ndClass": 500, "1stClass": 1100 }
+  ]
+}

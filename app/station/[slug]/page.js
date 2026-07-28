@@ -3,6 +3,7 @@ import path from 'path'
 import { notFound } from 'next/navigation'
 import Breadcrumbs from '../../../components/Breadcrumbs'
 import TrainCard from '../../../components/TrainCard'
+import VerificationBadge from '../../../components/VerificationBadge'
 
 const stationTranslations = {
   'Colombo Fort': { si: 'කොළඹ කොටුව', ta: 'கொழும்பு கோட்டை' },
@@ -222,6 +223,10 @@ export default function StationPage({ params }) {
           {stationTrains.map((train, idx) => (
             <TrainCard key={train.id || idx} train={train} index={idx} />
           ))}
+        </div>
+        
+        <div className="mt-12">
+          <VerificationBadge />
         </div>
       </div>
     </main>

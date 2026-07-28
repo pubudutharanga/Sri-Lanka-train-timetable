@@ -1,0 +1,155 @@
+{
+  "routes": {
+    "colombo-fort-to-kandy": {
+      "scenicRating": 4,
+      "viewSide": "Right side from Colombo for rice paddies; Right side from Peradeniya to Kandy for river views",
+      "highlights": ["Rambukkana climb", "Kadugannawa Pass", "Bible Rock viewpoint"]
+    },
+    "kandy-to-ella": {
+      "scenicRating": 5,
+      "viewSide": "Right side from Kandy to Nanu Oya for tea plantations; Left side from Nanu Oya to Ella for Nine Arch Bridge",
+      "highlights": ["Tea plantations", "Nine Arch Bridge", "Demodara Loop", "Ella Gap"]
+    },
+    "colombo-fort-to-badulla": {
+      "scenicRating": 5,
+      "viewSide": "Right side for best overall views through hill country",
+      "highlights": ["Kadugannawa Pass", "Tea estates", "Waterfalls", "Nine Arch Bridge", "Ella Gap"]
+    },
+    "colombo-fort-to-galle": {
+      "scenicRating": 4,
+      "viewSide": "Left side (ocean side) for coastal views the entire journey",
+      "highlights": ["Indian Ocean coastline", "Bentota lagoon", "Hikkaduwa beach", "Galle Fort approach"]
+    },
+    "colombo-fort-to-matara": {
+      "scenicRating": 4,
+      "viewSide": "Left side for ocean views along the entire coastal stretch",
+      "highlights": ["Coastal scenery", "Bentota", "Hikkaduwa", "Unawatuna beach", "Mirissa approach"]
+    },
+    "colombo-maradana-to-matara": {
+      "scenicRating": 4,
+      "viewSide": "Left side for ocean views along the entire coastal stretch",
+      "highlights": ["Coastal scenery", "Bentota", "Hikkaduwa", "Unawatuna beach", "Mirissa approach"]
+    },
+    "ella-to-badulla": {
+      "scenicRating": 4,
+      "viewSide": "Both sides offer mountain views; Left side for Ella Gap panorama",
+      "highlights": ["Ella Gap", "Mountain passes", "Rural villages"]
+    },
+    "colombo-fort-to-jaffna": {
+      "scenicRating": 3,
+      "viewSide": "Right side for Anuradhapura ancient city views; Either side through dry zone",
+      "highlights": ["Anuradhapura ancient city", "Elephant Corridor near Habarana", "Jaffna Peninsula approach"]
+    },
+    "kandy-to-nanu-oya": {
+      "scenicRating": 5,
+      "viewSide": "Right side for the best tea plantation views",
+      "highlights": ["Tea estates", "Hatton-Dickoya valley", "Waterfall views"]
+    },
+    "colombo-fort-to-trincomalee": {
+      "scenicRating": 3,
+      "viewSide": "Either side; Right side for glimpses of ancient reservoirs",
+      "highlights": ["Dry zone landscapes", "Ancient tanks", "Trincomalee harbor approach"]
+    },
+    "colombo-fort-to-batticaloa": {
+      "scenicRating": 3,
+      "viewSide": "Right side for lagoon and rural views approaching Batticaloa",
+      "highlights": ["Eastern landscapes", "Polonnaruwa region", "Batticaloa lagoon"]
+    },
+    "peradeniya-to-kandy": {
+      "scenicRating": 3,
+      "viewSide": "Left side for Mahaweli River views",
+      "highlights": ["Mahaweli River", "Royal Botanical Gardens"]
+    },
+    "galle-to-matara": {
+      "scenicRating": 4,
+      "viewSide": "Left side for uninterrupted ocean views",
+      "highlights": ["Unawatuna", "Weligama Bay", "Coconut groves"]
+    },
+    "colombo-fort-to-anuradhapura": {
+      "scenicRating": 3,
+      "viewSide": "Right side for glimpses of ancient reservoirs and stupas",
+      "highlights": ["Polgahawela junction", "Dry zone transition", "Anuradhapura sacred city"]
+    },
+    "nanu-oya-to-ella": {
+      "scenicRating": 5,
+      "viewSide": "Left side for the famous Nine Arch Bridge view and mountain passes",
+      "highlights": ["Horton Plains region", "Ohiya station", "Idalgashinna", "Nine Arch Bridge", "Demodara Loop"]
+    },
+    "colombo-fort-to-hikkaduwa": {
+      "scenicRating": 4,
+      "viewSide": "Left side for coastal views after Mount Lavinia",
+      "highlights": ["Mount Lavinia beach", "Panadura estuary", "Hikkaduwa coral reef coast"]
+    },
+    "badulla-to-colombo-fort": {
+      "scenicRating": 5,
+      "viewSide": "Left side for best overall views through hill country (reverse of Colombo to Badulla)",
+      "highlights": ["Ella Gap", "Nine Arch Bridge", "Tea estates", "Kadugannawa descent"]
+    },
+    "colombo-fort-to-nanu-oya": {
+      "scenicRating": 5,
+      "viewSide": "Right side for tea plantations and waterfall views",
+      "highlights": ["Kadugannawa Pass", "Bible Rock", "Tea country", "Hatton valley"]
+    },
+    "colombo-fort-to-polonnaruwa": {
+      "scenicRating": 3,
+      "viewSide": "Either side through dry zone landscapes",
+      "highlights": ["Dry zone transition", "Ancient reservoir views", "Rural Sri Lanka"]
+    },
+    "colombo-fort-to-chilaw": {
+      "scenicRating": 3,
+      "viewSide": "Left side for lagoon and fishing village views",
+      "highlights": ["Negombo lagoon", "Fishing villages", "Coconut groves"]
+    }
+  },
+  "lineData": {
+    "main-line": {
+      "name": "Main Line (Hill Country Line)",
+      "description": "Sri Lanka's most famous and scenic railway line, running from Colombo Fort through Kandy and into the misty hill country to Badulla. This 292 km line passes through tea plantations, over the iconic Nine Arch Bridge, and past stunning mountain vistas. Built during the British colonial era starting in 1858, it remains one of the most beautiful train journeys in the world.",
+      "stations": ["Colombo Fort", "Ragama", "Gampaha", "Veyangoda", "Polgahawela", "Rambukkana", "Kadugannawa", "Peradeniya", "Kandy", "Gampola", "Nawalapitiya", "Hatton", "Talawakele", "Nanu Oya", "Haputale", "Bandarawela", "Ella", "Demodara", "Badulla"],
+      "totalDistance": 292,
+      "keyTrains": ["Podi Menike", "Udarata Menike", "Ella Odyssey (Dunhinda Odyssey)", "Night Mail"]
+    },
+    "coastal-line": {
+      "name": "Coastal Line",
+      "description": "Running along Sri Lanka's stunning southwestern coastline from Colombo to Matara (and now extended to Beliatta), this 159 km line hugs the Indian Ocean for much of its journey. Pass through popular beach destinations like Hikkaduwa, Galle, and Unawatuna. The line was built in the 1890s and offers spectacular ocean views, especially at sunset.",
+      "stations": ["Colombo Fort", "Colombo Maradana", "Bambalapitiya", "Wellawatte", "Dehiwala", "Mount Lavinia", "Panadura", "Kalutara", "Aluthgama", "Bentota", "Ambalangoda", "Hikkaduwa", "Galle", "Unawatuna", "Weligama", "Mirissa", "Matara", "Beliatta"],
+      "totalDistance": 159,
+      "keyTrains": ["Ruhunu Kumari", "Galu Kumari", "Sagarika Express"]
+    },
+    "northern-line": {
+      "name": "Northern Line",
+      "description": "Connecting Colombo to Jaffna and Kankesanthurai in the north, this 402 km line was heavily damaged during Sri Lanka's civil war and fully restored in 2014. It passes through ancient cities like Anuradhapura and the dry zone landscapes of the north. The journey offers a unique window into post-war Sri Lanka's recovery.",
+      "stations": ["Colombo Fort", "Ragama", "Gampaha", "Veyangoda", "Polgahawela", "Kurunegala", "Maho", "Anuradhapura", "Medawachchiya", "Kilinochchi", "Elephant Pass", "Jaffna", "Kankesanthurai"],
+      "totalDistance": 402,
+      "keyTrains": ["Yal Devi", "Rajarata Rajina", "Queen of Jaffna", "Uttara Devi"]
+    },
+    "batticaloa-line": {
+      "name": "Batticaloa Line (Eastern Line)",
+      "description": "Branching from the Northern Line at Maho Junction, this line runs east to Batticaloa via Polonnaruwa. The 200 km journey crosses the dry zone and passes near ancient ruins. Restored after the civil war, it provides a vital link to Sri Lanka's eastern coast.",
+      "stations": ["Colombo Fort", "Polgahawela", "Maho", "Gal Oya", "Polonnaruwa", "Welikanda", "Batticaloa"],
+      "totalDistance": 200,
+      "keyTrains": ["Night Mail (Eastern)", "Express Trains"]
+    },
+    "puttalam-line": {
+      "name": "Puttalam Line",
+      "description": "A northwestern branch line running from Ragama Junction (near Colombo) to Puttalam via Chilaw. This 130 km line passes through fishing villages, coconut plantations, and lagoon landscapes. It serves important commercial and pilgrimage towns.",
+      "stations": ["Colombo Fort", "Ragama", "Ja-Ela", "Negombo", "Chilaw", "Puttalam"],
+      "totalDistance": 130,
+      "keyTrains": ["Express Trains", "Commuter Services"]
+    },
+    "kelani-valley-line": {
+      "name": "Kelani Valley Line",
+      "description": "A suburban line running from Colombo Maradana to Avissawella, following the Kelani River valley. This 58 km commuter line serves Colombo's eastern suburbs and offers glimpses of rubber and cinnamon plantations.",
+      "stations": ["Colombo Maradana", "Nugegoda", "Maharagama", "Homagama", "Padukka", "Avissawella"],
+      "totalDistance": 58,
+      "keyTrains": ["Commuter Services"]
+    },
+    "matale-line": {
+      "name": "Matale Line",
+      "description": "A branch line running from Matale Junction (near Kandy) to Matale, covering 28 km through the central hills. It passes through spice gardens and the famous Aluvihare Rock Temple area.",
+      "stations": ["Peradeniya", "Katugastota", "Matale"],
+      "totalDistance": 28,
+      "keyTrains": ["Local Services"]
+    }
+  }
+}

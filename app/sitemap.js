@@ -82,6 +82,30 @@ export default async function sitemap() {
     }))
 
     routes.push(...schedulePages)
+
+    // Static Guide & SEO Pages
+    const staticPages = [
+      { url: `${baseUrl}/guide`, lastModified: '2026-07-28', priority: 0.9 },
+      { url: `${baseUrl}/guide/how-to-book-train-tickets`, lastModified: '2026-07-28', priority: 0.8 },
+      { url: `${baseUrl}/guide/train-classes-comparison`, lastModified: '2026-07-28', priority: 0.8 },
+      { url: `${baseUrl}/guide/scenic-train-rides`, lastModified: '2026-07-28', priority: 0.8 },
+      { url: `${baseUrl}/line`, lastModified: '2026-07-28', priority: 0.8 },
+      { url: `${baseUrl}/line/main-line`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/line/coastal-line`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/line/northern-line`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/line/batticaloa-line`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/line/puttalam-line`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/line/kelani-valley-line`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/line/matale-line`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/train`, lastModified: '2026-07-28', priority: 0.8 },
+      { url: `${baseUrl}/train/ella-odyssey`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/train/podi-menike`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/train/udarata-menike`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/train/yal-devi`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/train/ruhunu-kumari`, lastModified: '2026-07-28', priority: 0.7 },
+      { url: `${baseUrl}/train/rajarata-rajina`, lastModified: '2026-07-28', priority: 0.7 },
+    ]
+    routes.push(...staticPages)
   } catch (e) {
     console.error('Failed to generate sitemap routes', e)
   }

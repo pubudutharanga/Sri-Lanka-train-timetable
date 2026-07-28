@@ -38,6 +38,38 @@ const faqItems = [
     answer:
       'You can book Sri Lanka railway tickets online through the official Sri Lanka Railways seat reservation portal at seatreservation.railway.gov.lk. Our website helps you find the right train schedule first, then you can proceed to the official booking platform. For the official timetable, you can also check www.railway.gov.lk time table section. The railway.gov.lk schedule page has official information.',
   },
+  {
+    question: 'Can I buy train tickets at the station on the day of travel?',
+    answer: 'Yes, unreserved 2nd Class and 3rd Class tickets can be purchased at station counters on the day of travel, typically opening 1 hour before departure. However, 1st Class and 2nd Class reserved seats must be booked up to 30 days in advance through seatreservation.railway.gov.lk or at major station counters. Popular routes like Colombo to Ella often sell out weeks ahead.'
+  },
+  {
+    question: 'Which side of the train has the best scenic views to Ella?',
+    answer: 'For the Kandy to Ella train ride, sit on the RIGHT side from Kandy to Nanu Oya (Nuwara Eliya) for stunning tea plantation views. From Nanu Oya to Ella, the LEFT side offers the best views of mountain passes and the famous Nine Arch Bridge at Demodara.'
+  },
+  {
+    question: 'Is the Sri Lanka train safe for tourists?',
+    answer: 'Yes, Sri Lanka trains are generally very safe for tourists. Trains are well-used by locals and families. Keep standard travel precautions: watch your belongings, avoid hanging out of open doors, and book reserved seats on overnight trains. The most popular tourist routes (Kandy-Ella, Colombo-Galle) are particularly safe and well-traveled.'
+  },
+  {
+    question: 'How early should I arrive at the railway station?',
+    answer: 'Arrive at least 30-45 minutes before departure for reserved seats, and 45-60 minutes early for unreserved tickets on popular routes. At major stations like Colombo Fort, Kandy, and Ella, platforms can get crowded. For the Kandy-Ella route during peak season (December-March), arrive 1 hour early.'
+  },
+  {
+    question: 'Can I bring luggage on Sri Lanka trains?',
+    answer: 'Yes, you can bring luggage on all train classes. There are overhead racks in 1st and 2nd Class, and open luggage areas in 3rd Class. There is no strict weight limit, but very large items may need to go in the luggage van. Colombo Fort station also has a cloakroom service where you can store bags for a small fee.'
+  },
+  {
+    question: 'What food is available on Sri Lanka trains?',
+    answer: 'Most long-distance trains have vendors selling rice and curry packets (LKR 200-400), short eats like rolls and cutlets, and drinks. Some Express trains like the Ella Odyssey have a basic buffet car. However, selection is limited — bring your own snacks and water for longer journeys. Station platforms also have food stalls during stops.'
+  },
+  {
+    question: 'Do Sri Lanka trains have WiFi and phone charging?',
+    answer: 'Most Sri Lanka trains do not have WiFi or power outlets. The newer Ella Odyssey (Dunhinda Odyssey) tourist train and some 1st Class AC carriages may have charging points, but availability is not guaranteed. Bring a fully charged power bank for long journeys. Mobile data coverage is generally good along most routes except in some tunnel sections on the hill country line.'
+  },
+  {
+    question: 'What is the difference between Express and Slow trains?',
+    answer: 'Express trains stop only at major stations, cutting journey times significantly. For example, Colombo to Kandy takes about 2.5 hours by Express vs 4+ hours by slow train. Slow (stopping) trains stop at every station and are cheaper but much longer. Express trains usually offer 1st and 2nd Class reserved seating, while slow trains are mostly 3rd Class unreserved.'
+  },
 ]
 
 // FAQPage JSON-LD is server-rendered in layout.js for guaranteed Googlebot visibility

@@ -1,6 +1,7 @@
 import Hero from '../components/Hero'
 import SearchSection from '../components/SearchSection'
 import SEOContentSection from '../components/SEOContentSection'
+import VerificationBadge from '../components/VerificationBadge'
 import dynamic from 'next/dynamic'
 
 // FAQ is below-the-fold, lazy-load for performance but still SSR
@@ -119,6 +120,9 @@ export default function Home() {
         <SearchSection />
       </div>
       <SEOContentSection />
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
+        <VerificationBadge />
+      </div>
       <FAQSection />
     </div>
   )
