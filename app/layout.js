@@ -32,15 +32,15 @@ export const metadata = {
   // "train schedule" (11,499 imp) + "sri lanka" + "railway time table" (1,814)
   // + "train timetable" (134) + "train time table" (2,317)
   title: {
-    default: '🚂 Train Schedule Sri Lanka 2026 — Railway Time Table & Train Timetable Today',
-    template: '%s | ⚡ Train Schedule Sri Lanka 2026',
+    default: 'Train Schedule Sri Lanka 2026 — Railway Time Table & Train Timetable Today',
+    template: '%s | Train Schedule Sri Lanka 2026',
   },
 
   // ── Description — CTR-optimized (target 6%+ from current 1.9%) ─────
   // Contains exact phrases: "train schedule", "railway time table",
   // "train time table", "train timetable", "train schedule today"
   description:
-    '🚂 Search train schedule Sri Lanka 2026. Find railway time table, train time table & timetable for Colombo Fort, Kandy, Galle, Badulla, Jaffna & 100+ stations. Free train schedule today & tomorrow — updated daily.',
+    'Search train schedule Sri Lanka 2026. Find railway time table, train time table & timetable for Colombo Fort, Kandy, Galle, Badulla, Jaffna & 100+ stations. Free train schedule today & tomorrow — updated daily.',
 
   // ── Core keywords ──────────────────────────────────────────────────
   keywords: [
